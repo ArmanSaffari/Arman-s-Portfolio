@@ -2,8 +2,27 @@
   "skills": {
     "frontEnd": [
       {"id":1, "name": "html", "imgFileName": "html.svg"},
-      {"id":1, "name": "javascript", "imgFileName": "javascript.svg"},
-      {"id":1, "name": "react", "imgFileName": "react.svg"}
+      {"id":2, "name": "css", "imgFileName": "css.svg"},
+      {"id":3, "name": "bootstrap", "imgFileName": "bootstrap.svg"},
+      {"id":3, "name": "tailwind", "imgFileName": "tailwind.svg"},
+      {"id":2, "name": "javascript", "imgFileName": "javascript.svg"},
+      {"id":3, "name": "react", "imgFileName": "react.svg"},
+      {"id":4, "name": "vue", "imgFileName": "vue.svg"}
+
+    ],
+    "backEnd": [
+      {"id":1, "name": "node.js", "imgFileName": "nodejs.svg"},
+      {"id":2, "name": "express js", "imgFileName": "expressjs.svg"}
+    ],
+    "design": [
+      {"id":1, "name": "figma", "imgFileName": "figma.svg"},
+      {"id":2, "name": "adobe XD", "imgFileName": "AdobeXD.svg"},
+      {"id":3, "name": "illusterator", "imgFileName": "AdobeIllustrator.svg"},
+      {"id":3, "name": "photoshop", "imgFileName": "AdobePhotoshop.svg"}
+    
+    ],
+    "other": [
+      {"id":1, "name": "github", "imgFileName": "github.svg"}
     ]
   },
   "projects": [

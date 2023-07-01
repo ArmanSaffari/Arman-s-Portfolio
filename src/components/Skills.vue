@@ -3,18 +3,15 @@
   export default {
     data() {
       return {
-        url: './../assets/icons/html.svg'
+        showTooltip: false
       }
     },
     props: [
       'skillsArray',
     ],
     methods: {
-      getImageUrl() {
-        // const url = new URL('../assets/icons/html.svg', window.location.origin);
-        // return url.href;
-        //  '../assets/icons/html.svg'
-        return  `https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/Arman's%20Portfolio/src/assets/icons/html.svg`
+      getImageUrl(imgName) {
+        return  `https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/icons/${imgName}`
         //  Pic
       }
     }
@@ -45,23 +42,12 @@
           Front End
         </h5>
         <div class="flex gap-4 justify-evenly"> 
-          <!-- <ul>
-            <li  v-for="skill in skillsArray.frontEnd" :key="skill.id">{{ skill.name }} </li>
-          </ul> -->
-            <img
-            v-for="skill in skillsArray.frontEnd" :key="skill.id"
-            :alt="skill.name"
-            class="h-20 inline rounded-lg"
-            v-bind:src="getImageUrl()"
-          />
-          <!-- <img
-            class="h-20 inline rounded-lg"
-            src="../assets/icons/javascript.svg"
-          />
           <img
-            class="h-20 inline rounded-lg"
-            src="../assets/icons/react.svg"
-          /> -->
+          v-for="skill in skillsArray.frontEnd" :key="skill.id"
+          :alt="skill.name"
+          class="h-20 inline rounded-lg"
+          v-bind:src="getImageUrl(skill.imgFileName)"
+          />
         </div>
       </div>
 
@@ -73,14 +59,12 @@
         >
           Back End
         </h5>
-        <div class="flex gap-4 justify-evenly">
+        <div class="flex gap-4 justify-evenly"> 
           <img
-            class="h-20 inline rounded-lg"
-            src="../assets/icons/nodejs.svg"
-          />
-          <img
-            class="h-20 inline rounded-lg"
-            src="../assets/icons/expressjs.svg"
+          v-for="skill in skillsArray.backEnd" :key="skill.id"
+          :alt="skill.name"
+          class="h-20 inline rounded-lg"
+          v-bind:src="getImageUrl(skill.imgFileName)"
           />
         </div>
       </div>
@@ -93,18 +77,12 @@
         >
           Design
         </h5>
-        <div class="flex gap-4 justify-evenly">
+        <div class="flex gap-4 justify-evenly flex-wrap"> 
           <img
-            class="h-20 inline rounded-lg"
-            src="../assets/icons/figma.svg"
-          />
-          <img
-            class="h-20 inline rounded-lg"
-            src="../assets/icons/AdobeIllustrator.svg"
-          />
-          <img
-            class="h-20 inline rounded-lg"
-            src="../assets/icons/AdobeXD.svg"
+          v-for="skill in skillsArray.design" :key="skill.id"
+          :alt="skill.name"
+          class="h-20 inline rounded-lg"
+          v-bind:src="getImageUrl(skill.imgFileName)"
           />
         </div>
       </div>

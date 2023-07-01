@@ -41,7 +41,7 @@
         >
           Front End
         </h5>
-        <div class="flex gap-4 justify-evenly"> 
+        <div class="flex gap-4 justify-center flex-wrap"> 
           <img
           v-for="skill in skillsArray.frontEnd" :key="skill.id"
           :alt="skill.name"
@@ -59,7 +59,7 @@
         >
           Back End
         </h5>
-        <div class="flex gap-4 justify-evenly"> 
+        <div class="flex gap-4 justify-center flex-wrap"> 
           <img
           v-for="skill in skillsArray.backEnd" :key="skill.id"
           :alt="skill.name"
@@ -77,7 +77,7 @@
         >
           Design
         </h5>
-        <div class="flex gap-4 justify-evenly flex-wrap"> 
+        <div class="flex gap-4 justify-center flex-wrap"> 
           <img
           v-for="skill in skillsArray.design" :key="skill.id"
           :alt="skill.name"

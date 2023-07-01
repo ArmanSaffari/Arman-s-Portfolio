@@ -32,12 +32,19 @@
       "bannerAddress": "assets/images/project1.jpg",
       "links": [
         {
-          "website": "gitHub",
-          "address": "https://github.com/"
+          "name": "GitHub",
+          "url": "https://github.com/",
+          "icon": "github.svg"
         },
         {
-          "website": "figma",
-          "address": "https://www.figma.com/"
+          "name": "Figma",
+          "url": "https://www.figma.com/",
+          "icon": "figma.svg"
+        },
+        {
+          "name": "Demo",
+          "url": "https://www.figma.com/",
+          "icon": "play.svg"
         }
       ],
       "ProgrammingLanguages": [

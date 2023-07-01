@@ -1,0 +1,96 @@
+{
+  "skills": {
+    "frontEnd": [
+      {"id":1, "name": "html", "imgFileName": "html.svg"},
+      {"id":1, "name": "javascript", "imgFileName": "javascript.svg"},
+      {"id":1, "name": "react", "imgFileName": "react.svg"}
+    ]
+  },
+  "projects": [
+    {
+      "title": "project1",
+      "briefDescription": "This is my first project!",
+      "bannerAddress": "assets/images/project1.jpg",
+      "links": [
+        {
+          "website": "gitHub",
+          "address": "https://github.com/"
+        },
+        {
+          "website": "figma",
+          "address": "https://www.figma.com/"
+        }
+      ],
+      "ProgrammingLanguages": [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "technologies": [
+        {
+          "name": "Bootstrap",
+          "description": "Bootstrap CSS framework"
+        },
+        {
+          "name": "React",
+          "description": "React.js framework"
+        }
+      ],
+      "features": [
+        {
+          "title": "Fetch data from JSON file",
+          "description": "In this project, I have used fetch method to use data saved in the JSON file.",
+          "imageAddress": "assets/images/project1-feature1.jpg"
+        },
+        {
+          "title": "feature2",
+          "description": "feature2feature2feature2feature2feature2feature2",
+          "imageAddress": "assets/images/project1-feature2.jpg"
+        }
+      ]
+    },
+    {
+      "title": "project2",
+      "briefDescription": "this is my 2nd project!",
+      "bannerAddress": "assets/images/project2.jpg",
+      "links": [
+        {
+          "website": "gitHub",
+          "address": "https://github.com/"
+        }
+      ],
+      "ProgrammingLanguages": [
+        "html",
+        "css",
+        "javascript",
+        "python"
+      ],
+      "technologies": [
+        {
+          "name": "tailwind",
+          "description": "tailwind CSS framework"
+        },
+        {
+          "name": "django",
+          "description": "Python Django framework"
+        },
+        {
+          "name": "vue",
+          "description": "Vue.js"
+        }
+      ],
+      "features": [
+        {
+          "title": "feature1",
+          "description": "feature1feature1feature1feature1feature1feature1",
+          "imageAddress": "assets/images/project2-feature1.jpg"
+        },
+        {
+          "title": "feature2",
+          "description": "feature2feature2feature2feature2feature2feature2",
+          "imageAddress": "assets/images/project2-feature2.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -19,7 +19,8 @@ export default {
 
   data() {
     return {
-      skillsArray: data.skills
+      skillsArray: data.skills,
+      projectsArray: data.projects
     };
   }
 };
@@ -30,13 +31,13 @@ export default {
 <template>
   <header>
     <PortfolioHeader />
-    <StickyNavbar />
   </header>
 
   <main>
+    <StickyNavbar />
     <AboutMe />
     <Skills :skillsArray="skillsArray"/>
-    <Projects />
+    <Projects :projectsArray="projectsArray"/>
   </main>
 
   <footer>

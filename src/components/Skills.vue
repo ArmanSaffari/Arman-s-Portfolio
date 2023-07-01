@@ -1,5 +1,4 @@
 <script>
-  import Pic from '../assets/icons/html.svg'
   export default {
     data() {
       return {

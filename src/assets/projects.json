@@ -35,17 +35,20 @@
         {
           "name": "GitHub",
           "url": "https://github.com/",
-          "icon": "github.svg"
+          "icon": "github-white.svg",
+          "hoverIcon": "github.svg"
         },
         {
           "name": "Figma",
           "url": "https://www.figma.com/",
-          "icon": "figma.svg"
+          "icon": "figma.svg",
+          "hoverIcon": "github.svg"
         },
         {
           "name": "Demo",
           "url": "https://www.figma.com/",
-          "icon": "play.svg"
+          "icon": "play.svg",
+          "hoverIcon": "github.svg"
         }
       ],
       "ProgrammingLanguages": [

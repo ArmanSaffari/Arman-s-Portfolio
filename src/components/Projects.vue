@@ -67,15 +67,15 @@
               <a
                 v-for="link in project.links"
                 :href="link.url"
-                class="flex items-center border-2 border-white hover:text-black p-1 rounded-lg text-bold"
+                class="flex items-center border-2 border-white hover:bg-white hover:text-black p-1 rounded-lg text-bold group"
               >
-                <div class="flex items-center gap-1 group">
+                <div class="flex items-center gap-1 ">
                   <span class="text-sm font-semibold">{{ link.name }}</span>
-                  <div class="inline relative m-0 p-0 h-5 w-5 border">
+                  <div class="inline relative m-0 p-0 h-5 w-5">
                     <img class=" absolute top-0 left-0 h-5 w-5 group-hover:hidden"
                     :src="getImageUrl(link.icon)" />
-                    <!-- <img class="absolute top-0 left-0 h-5 w-5 hidden" v-if="link.hoverIcon"
-                    :src="getImageUrl(link.hoverIcon)" /> -->
+                    <img class="absolute top-0 left-0 h-5 w-5 hidden group-hover:block" v-if="link.hoverIcon"
+                    :src="getImageUrl(link.hoverIcon)" />
                   </div>
                 </div>
               </a>

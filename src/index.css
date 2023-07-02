@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 @layer base {
-  .font-outline-orange {
-    -webkit-text-stroke: 1px #F21D1D;
+  .font-outline-blue {
+    -webkit-text-stroke: 1px #0B9EB7;
   }
   .font-outline-teal {
-    -webkit-text-stroke: 1px #26B59B;
+    -webkit-text-stroke: 1px #14b8a6;
   }
-  .font-outline-grey {
-    -webkit-text-stroke: 1px #616161;
+  .font-outline-sky {
+    -webkit-text-stroke: 1px #0284c7;
   }
 }

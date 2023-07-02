@@ -1,14 +1,15 @@
 <template>
   <div class="container mx-auto px-4 my-40 lg:w-1/2">
     <div id="AboutMe" class="flex items-stretch">
-      <div class="grow-0 w-12 p-0 pr-4 flex border-r-8 border-myOrange">
+      <div class="grow-0 w-12 p-0 pr-4 flex">
         <h3
           id="aboutMe"
-          class="font-fahkwang text-3xl w-full self-end whitespace-nowrap tracking-widest origin-center -rotate-90"
+          class="font-fahkwang text-white text-3xl w-full self-end whitespace-nowrap tracking-widest origin-center -rotate-90"
         >
           About Me
         </h3>
       </div>
+      <div class="w-2 grow-0 shrink-0 bg-gradient-to-t from-teal-500 from-10%  to-blue-800 to-90%"></div>
       <div class="pl-4 grow">
         <p class="text-gray-700">
           I'm Arman Saffari, a passionate and dedicated Full Stack Web

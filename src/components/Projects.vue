@@ -7,11 +7,17 @@
     },
     props: [
       'projectsArray',
+      'setViewingProject',
+      'toggleModal'
     ],
     methods: {
       getImageUrl(imgName) {
         return  `https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/icons/${imgName}`
-        //  Pic
+      },
+      showProjectModal(id) {
+        console.log(id)
+        this.setViewingProject(id);
+        this.toggleModal();
       }
     }
   };
@@ -23,20 +29,21 @@
     class="container mx-auto px-4 my-40 lg:w-1/2 overflow-hidden"
   >
     <h3
-      class="relative text-right font-fahkwang text-3xl w-1/2 whitespace-nowrap tracking-widest"
+      class="relative text-white text-right font-fahkwang text-3xl w-1/2 whitespace-nowrap tracking-widest"
     >
       Projects
     </h3>
-    <div class="left-0 border-b-8 w-1/2 border-myOrange h-0"></div>
+    <div class="left-0 w-1/2 h-2 bg-gradient-to-r from-teal-500 from-30%  to-blue-800 to-90%"></div>
     <div id="projects" class="w-full pb-4">
       <div
         v-for="project in projectsArray" :key="project.id"
-        class="flex justify-start p-0 mt-12 w-full h-96 bg-white border border-gray-400 rounded-lg shadow hover:bg-gray-100"
+        class="flex justify-start p-l pt-0 pl-0 mt-12 w-full border border-white rounded-lg shadow text-white hover:bg-gradient-to-br from-teal-500 from-20% to-blue-800 to-80%
+          hover:shadow-lg hover:shadow-cyan-500/50"
       >
         <div class="relative w-1/2 m-0 rounded-lg overflow-hidden">
           <img
-            src="../assets/images/font-infography.jpg"
-            class="absolute object-cover -left-[10%] -top-1/4 h-full w-full rounded-[50%] border border-gray-400"
+            :src="project.bannerUrl"
+            class="absolute object-cover -left-[10%] -top-1/4 h-full w-full rounded-[50%] border border-white"
           />
         </div>
         <div class="w-1/2 py-2">
@@ -56,30 +63,26 @@
           </div>
           <div class="projectLinks">
             <h4 class="my-2 font-semibold text-md">View The Project Here:</h4>
-            <div class="flex gap-2">
+            <div class="flex gap-2 flex-wrap">
               <a
                 v-for="link in project.links"
-                href="#"
-                class="flex items-center border-2 border-gray-700 hover:bg-myOrange p-1 rounded-lg text-bold"
+                :href="link.url"
+                class="flex items-center border-2 border-white hover:text-black p-1 rounded-lg text-bold"
               >
-                <div class="flex items-center gap-1">
+                <div class="flex items-center gap-1 group">
                   <span class="text-sm font-semibold">{{ link.name }}</span>
-                  <img class="h-5 inline" :src="getImageUrl(link.icon)" />
+                  <div class="inline relative m-0 p-0 h-5 w-5 border">
+                    <img class=" absolute top-0 left-0 h-5 w-5 group-hover:hidden"
+                    :src="getImageUrl(link.icon)" />
+                    <img class="absolute top-0 left-0 h-5 w-5 hidden group-hover:block" v-if="link.hoverIcon"
+                    :src="getImageUrl(link.hoverIcon)" />
+                  </div>
                 </div>
               </a>
-              <!-- <a
-                href="#"
-                class="flex items-center border-2 border-gray-700 hover:bg-myOrange p-1 rounded-lg text-bold"
-              >
-                <div class="flex items-center gap-1">
-                  <span class="text-sm font-semibold">Demo</span>
-                  <img class="h-5 inline" src="../assets/icons/play.svg" />
-                </div>
-              </a> -->
             </div>
           </div>
           <div class="projectFeatures py-2">
-            <button type="button">See All Features Here!</button>
+            <button type="button" @click = "showProjectModal(project.id)">See All Features Here!</button>
           </div>
         </div>
       </div>

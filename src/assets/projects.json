@@ -27,9 +27,10 @@
   },
   "projects": [
     {
+      "id":1,
       "title": "project1",
       "briefDescription": "This is my first project!",
-      "bannerAddress": "assets/images/project1.jpg",
+      "bannerUrl": "https://source.unsplash.com/vpOeXr5wmR4",
       "links": [
         {
           "name": "GitHub",
@@ -76,13 +77,28 @@
       ]
     },
     {
+      "id":2,
       "title": "project2",
       "briefDescription": "this is my 2nd project!",
-      "bannerAddress": "assets/images/project2.jpg",
+      "bannerUrl": "https://source.unsplash.com/mZnx9429i94",
       "links": [
         {
-          "website": "gitHub",
-          "address": "https://github.com/"
+          "name": "GitHub",
+          "url": "https://github.com/",
+          "icon": "github-white.svg",
+          "hoverIcon": "github.svg"
+        },
+        {
+          "name": "Figma",
+          "url": "https://www.figma.com/",
+          "icon": "figma.svg",
+          "hoverIcon": "github.svg"
+        },
+        {
+          "name": "Demo",
+          "url": "https://www.figma.com/",
+          "icon": "play.svg",
+          "hoverIcon": "github.svg"
         }
       ],
       "ProgrammingLanguages": [

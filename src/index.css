@@ -12,4 +12,7 @@
   .font-outline-sky {
     -webkit-text-stroke: 1px #0284c7;
   }
+  .font-outline-white {
+    -webkit-text-stroke: 1px white;
+  }
 }

@@ -30,18 +30,24 @@
     {
       "id":1,
       "title": "Kish Financial Institution",
-      "briefDescription": "This is my first project!",
-      "bannerUrl": "KishFinancialInstitution.png",
+      "briefDescription": "The web development project for Kish Financial Institution, a non-profit organization, encompasses a comprehensive design and development process, incorporating both front-end and back-end components. From visually appealing user interfaces to robust functionality, the project aims to create an intuitive and secure online platform for the institution's financial services.",
+      "bannerUrl": "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution.png",
       "links": [
         {
-          "name": "GitHub",
-          "url": "https://github.com/",
+          "name": "Front-end",
+          "url": "https://github.com/ArmanSaffari/loan-project",
+          "icon": "github-white.svg",
+          "hoverIcon": "github.svg"
+        },
+        {
+          "name": "Back-end",
+          "url": "https://github.com/ArmanSaffari/Loan-Project-Backend",
           "icon": "github-white.svg",
           "hoverIcon": "github.svg"
         },
         {
           "name": "Figma",
-          "url": "https://www.figma.com/",
+          "url": "https://www.figma.com/file/tGPLeNWavwVdyV3bEzoNHy/Main?type=design&node-id=0-1&mode=design&t=HtaSOTSCF7fo5wYS-0",
           "icon": "figma.svg",
           "hoverIcon": "figma.svg"
         },
@@ -55,29 +61,45 @@
       "ProgrammingLanguages": [
         "html",
         "css",
-        "javascript"
+        "javascript",
+        "react"
       ],
       "technologies": [
         {
-          "name": "Bootstrap",
-          "description": "Bootstrap CSS framework"
+          "name": "React",
+          "description": " React is the core framework employed in the project, facilitating the creation of dynamic and interactive user interfaces through its component-based architecture.",
+          "icon": "react.svg"
         },
         {
-          "name": "React",
-          "description": "React.js framework"
+          "name": "Material UI",
+          "description": "Material UI is a widely used library in the project, providing a set of customizable and pre-designed UI elements that have been extensively utilized and modified to match the desired design aesthetic.",
+          "icon": "materialUI.svg"
+        },
+        {
+          "name": "React Router Dom",
+          "description": "React Hook Form is a form validation library integrated into the project, simplifying the process of implementing robust and efficient forms by utilizing React hooks.",
+          "icon": "reactRouter.svg"
+        },
+        {
+          "name": "React Hook Form",
+          "description": "React Hook Form is a form validation library integrated into the project, simplifying the process of implementing robust and efficient forms by utilizing React hooks.",
+          "icon": "reactHookForm.svg"
+        },
+        {
+          "name": "Axios",
+          "description": "Axios is a popular HTTP client used to handle API requests in the project. It offers a simple and intuitive interface for making asynchronous HTTP calls to external services.",
+          "icon": "Axios.svg"
+        },
+        {
+          "name": "Material Icons",
+          "description": "Material Icons is an icon library utilized in the project, providing a wide range of scalable and customizable icons that adhere to the material design principles. These icons enhance the visual appeal and usability of the application.",
+          "icon": "materialUI.svg"
         } 
       ],
       "features": [
-        {
-          "title": "Fetch data from JSON file",
-          "description": "In this project, I have used fetch method to use data saved in the JSON file.",
-          "imageAddress": "assets/images/project1-feature1.jpg"
-        },
-        {
-          "title": "feature2",
-          "description": "feature2feature2feature2feature2feature2feature2",
-          "imageAddress": "assets/images/project1-feature2.jpg"
-        }
+        "Customized User Interface",
+        "feature2",
+        "feature3"
       ]
     },
     {

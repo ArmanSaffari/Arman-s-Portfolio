@@ -22,15 +22,16 @@
     
     ],
     "other": [
-      {"id":1, "name": "github", "imgFileName": "github.svg"}
+      {"id":1, "name": "version control systems", "imgFileName": "github.svg"},
+      {"id":12, "name": "agile methodology", "imgFileName": "agile.webp"}
     ]
   },
   "projects": [
     {
       "id":1,
-      "title": "project1",
+      "title": "Kish Financial Institution",
       "briefDescription": "This is my first project!",
-      "bannerUrl": "https://source.unsplash.com/vpOeXr5wmR4",
+      "bannerUrl": "KishFinancialInstitution.png",
       "links": [
         {
           "name": "GitHub",
@@ -42,13 +43,13 @@
           "name": "Figma",
           "url": "https://www.figma.com/",
           "icon": "figma.svg",
-          "hoverIcon": "github.svg"
+          "hoverIcon": "figma.svg"
         },
         {
           "name": "Demo",
           "url": "https://www.figma.com/",
-          "icon": "play.svg",
-          "hoverIcon": "github.svg"
+          "icon": "play-white.svg",
+          "hoverIcon": "play.svg"
         }
       ],
       "ProgrammingLanguages": [
@@ -64,7 +65,7 @@
         {
           "name": "React",
           "description": "React.js framework"
-        }
+        } 
       ],
       "features": [
         {
@@ -95,13 +96,13 @@
           "name": "Figma",
           "url": "https://www.figma.com/",
           "icon": "figma.svg",
-          "hoverIcon": "github.svg"
+          "hoverIcon": "figma.svg"
         },
         {
           "name": "Demo",
           "url": "https://www.figma.com/",
-          "icon": "play.svg",
-          "hoverIcon": "github.svg"
+          "icon": "play-white.svg",
+          "hoverIcon": "play.svg"
         }
       ],
       "ProgrammingLanguages": [

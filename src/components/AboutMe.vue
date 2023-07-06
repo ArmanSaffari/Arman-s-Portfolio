@@ -9,9 +9,9 @@
           About Me
         </h3>
       </div>
-      <div class="w-2 grow-0 shrink-0 bg-gradient-to-t from-teal-500 from-10%  to-blue-800 to-90%"></div>
+      <div class="w-2 grow-0 shrink-0 bg-gradient-to-t from-teal-500 from-10%  to-blue-700 to-90%"></div>
       <div class="pl-4 grow">
-        <p class="text-gray-700">
+        <p class="text-slate-300">
           I'm Arman Saffari, a passionate and dedicated Full Stack Web
           Developer based in Toronto. With a strong enthusiasm for continuous
           learning and growth in web development, I thrive on building

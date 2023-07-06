@@ -33,12 +33,13 @@
     >
       Projects
     </h3>
-    <div class="left-0 w-1/2 h-2 bg-gradient-to-r from-teal-500 from-30%  to-blue-800 to-90%"></div>
+    <div class="left-0 w-1/2 h-2 bg-gradient-to-r from-teal-500 from-30%  to-blue-700 to-90%"></div>
     <div id="projects" class="w-full pb-4">
       <div
         v-for="project in projectsArray" :key="project.id"
-        class="flex justify-start p-l pt-0 pl-0 mt-12 w-full border border-white rounded-lg shadow text-white hover:bg-gradient-to-br from-teal-500 from-20% to-blue-800 to-80%
+        class="flex justify-start p-l pt-0 pl-0 mt-12 w-full border border-white rounded-lg shadow text-white hover:bg-gradient-to-br from-teal-500 from-20% to-blue-700 to-80%
           hover:shadow-lg hover:shadow-cyan-500/50"
+        :class="{ hidden: ![1, 2].includes( project.id ) }"
       >
         <div class="relative w-1/2 m-0 rounded-lg overflow-hidden">
           <img
@@ -81,7 +82,7 @@
               </a>
             </div>
           </div>
-          <div class="projectFeatures py-2">
+          <div class="projectFeatures py-2 hover:font-bold">
             <button type="button" @click = "showProjectModal(project.id)">See All Features Here!</button>
           </div>
         </div>

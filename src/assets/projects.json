@@ -42,6 +42,12 @@
       ],
       "links": [
         {
+          "name": "Visit the Project",
+          "url": "https://github.com/ArmanSaffari/loan-project",
+          "icon": "github-white.svg",
+          "hoverIcon": "github.svg"
+        },
+        {
           "name": "Github",
           "url": "https://github.com/ArmanSaffari/loan-project",
           "icon": "github-white.svg",
@@ -187,9 +193,17 @@
     },
     {
       "id":3,
-      "title": "project3",
-      "briefDescription": "this is my 2nd project!",
-      "bannerUrl": "https://source.unsplash.com/mZnx9429i94",
+      "title": "Fanshion",
+      "briefDescription": "This web development project caters to fashion enthusiasts, offering them a visually appealing platform to share reviews and content. It leverages Firebase's features, including Firestore, Storage, and Authentication, to store products, user data, and profile pictures securely. Users can easily share their fashion reviews while enjoying a seamless and interactive experience.",
+      "bannerUrl": [
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution2.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution3.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution4.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution5.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution6.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution7.png"
+      ],
       "links": [
         {
           "name": "GitHub",
@@ -218,16 +232,24 @@
       ],
       "technologies": [
         {
-          "name": "tailwind",
-          "description": "tailwind CSS framework"
+          "name": "multer",
+          "description": "middleware to upload file",
+          "icon": "multer.png"
         },
         {
-          "name": "django",
-          "description": "Python Django framework"
+          "name": "multer",
+          "description": "middleware to upload file",
+          "icon": "multer.png"
         },
         {
-          "name": "vue",
-          "description": "Vue.js"
+          "name": "multer",
+          "description": "middleware to upload file",
+          "icon": "multer.png"
+        },
+        {
+          "name": "multer",
+          "description": "middleware to upload file",
+          "icon": "multer.png"
         }
       ],
       "features": [

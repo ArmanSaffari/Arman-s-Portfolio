@@ -1,9 +1,14 @@
 <script>
+import Carousel from "./Carousel.vue"
+
   export default {
     data() {
       return {
         showTooltip: false
       }
+    },
+    components: {
+      Carousel
     },
     props: [
       'projectsArray',
@@ -15,7 +20,6 @@
         return  `https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/icons/${imgName}`
       },
       showProjectModal(id) {
-        console.log(id)
         this.setViewingProject(id);
         this.toggleModal();
       }
@@ -29,7 +33,7 @@
     class="container mx-auto px-4 my-40 lg:w-1/2 overflow-hidden"
   >
     <h3
-      class="relative text-white text-right font-fahkwang text-3xl w-1/2 whitespace-nowrap tracking-widest"
+      class=" relative text-white text-right font-fahkwang text-3xl w-1/2 whitespace-nowrap tracking-widest"
     >
       Projects
     </h3>
@@ -37,18 +41,16 @@
     <div id="projects" class="w-full pb-4">
       <div
         v-for="project in projectsArray" :key="project.id"
-        class="flex justify-start p-l pt-0 pl-0 mt-12 w-full border border-white rounded-lg shadow text-white hover:bg-gradient-to-br from-teal-500 from-20% to-blue-700 to-80%
+        class="flex flex-wrap justify-start items-center p-4 mt-12 w-full
+          border border-white rounded-lg shadow text-white hover:bg-gradient-to-br from-teal-500 from-20% to-blue-700 to-80%
           hover:shadow-lg hover:shadow-cyan-500/50"
         :class="{ hidden: ![1, 2].includes( project.id ) }"
       >
-        <div class="relative w-1/2 m-0 rounded-lg overflow-hidden">
-          <img
-            :src="project.bannerUrl"
-            class="absolute object-cover -left-[10%] -top-1/4 h-full w-full rounded-[50%] border border-white"
-          />
+        <div class="relative w-full m-0 overflow-hidden xl:w-1/2">
+          <Carousel :imagesLink="project.bannerUrl" />
         </div>
-        <div class="w-1/2 py-2">
-          <h5 class="text-2xl font-fahkwang font-bold mt-32">
+        <div class="w-full p-2 xl:w-1/2">
+          <h5 class="text-2xl font-fahkwang font-bold">
             {{ project.title }}
           </h5>
           <div class="projectLangs flex my-2 gap-1">

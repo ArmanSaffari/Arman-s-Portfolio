@@ -29,19 +29,21 @@
   "projects": [
     {
       "id":1,
-      "title": "Kish Financial Institution",
+      "title": "Kish Financial Institution - Front End",
       "briefDescription": "The web development project for Kish Financial Institution, a non-profit organization, encompasses a comprehensive design and development process, incorporating both front-end and back-end components. From visually appealing user interfaces to robust functionality, the project aims to create an intuitive and secure online platform for the institution's financial services.",
-      "bannerUrl": "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution.png",
+      "bannerUrl": [
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution2.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution3.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution4.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution5.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution6.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution7.png"
+      ],
       "links": [
         {
-          "name": "Front-end",
+          "name": "Github",
           "url": "https://github.com/ArmanSaffari/loan-project",
-          "icon": "github-white.svg",
-          "hoverIcon": "github.svg"
-        },
-        {
-          "name": "Back-end",
-          "url": "https://github.com/ArmanSaffari/Loan-Project-Backend",
           "icon": "github-white.svg",
           "hoverIcon": "github.svg"
         },
@@ -53,7 +55,7 @@
         },
         {
           "name": "Demo",
-          "url": "https://www.figma.com/",
+          "url": "#",
           "icon": "play-white.svg",
           "hoverIcon": "play.svg"
         }
@@ -97,14 +99,211 @@
         } 
       ],
       "features": [
-        "Customized User Interface",
-        "feature2",
-        "feature3"
+        "Streamlined user authentication with an intuitive login and sign-up interface",
+        "Seamless user photo upload functionality for personalized profiles",
+        "Efficient user data editing capabilities for maintaining up-to-date information",
+        "Real-time message and notification system for smooth communication with the server",
+        "Convenient integration for adding membership fees and submitting loan requests",
+        "Comprehensive loan eligibility checks to ensure accurate assessments",
+        "Reliable payment recording system to track and manage user transactions"
       ]
     },
     {
       "id":2,
-      "title": "project2",
+      "title": "Kish Financial Institution - Back End",
+      "briefDescription": "The project is a backend application developed in Node.js, providing robust functionality for user authentication, profile management, and seamless integration with a MySQL database. It handles essential tasks such as secure login and sign-up processes, efficient user photo uploading, token generation, and authorization for each request. Additionally, it incorporates CRUD operations to facilitate seamless interaction with the MySQL database. By leveraging Node.js and Express.js, the project ensures efficient request handling and secure routing. Overall, this professional backend project delivers a reliable and scalable solution for managing user data and authentication in a web application.",
+      "bannerUrl": [
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution2.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution3.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution4.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution5.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution6.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution7.png"
+      ],
+      "links": [
+        {
+          "name": "Github",
+          "url": "https://github.com/ArmanSaffari/Loan-Project-Backend",
+          "icon": "github-white.svg",
+          "hoverIcon": "github.svg"
+        },
+        {
+          "name": "Figma",
+          "url": "https://www.figma.com/file/tGPLeNWavwVdyV3bEzoNHy/Main?type=design&node-id=0-1&mode=design&t=HtaSOTSCF7fo5wYS-0",
+          "icon": "figma.svg",
+          "hoverIcon": "figma.svg"
+        },
+        {
+          "name": "Demo",
+          "url": "#",
+          "icon": "play-white.svg",
+          "hoverIcon": "play.svg"
+        }
+      ],
+      "ProgrammingLanguages": [
+        "javascript",
+        "nodejs",
+        "expressjs"
+      ],
+      "technologies": [
+        {
+          "name": "express",
+          "description": "Lightweight web framework",
+          "icon": "expressjs.svg"
+        },
+        {
+          "name": "sequelize",
+          "description": "Object-relational mapping (ORM)",
+          "icon": "sequelizejs.svg"
+        },
+        {
+          "name": "bcrypt",
+          "description": "Used for password hashing",
+          "icon": "bcrypt.png"
+        },
+        {
+          "name": "jsonwebtoken",
+          "description": "Creating and authentication tokens",
+          "icon": "jsonWebToken.svg"
+        },
+        {
+          "name": "multer",
+          "description": "middleware to upload file",
+          "icon": "multer.png"
+        }
+      ],
+      "features": [
+        "RESTful APIs for user and admin actions (GET, POST, PUT, DELETE)",
+        "Utilized Sequelize as an ORM for database management",
+        "Implemented bcrypt for password hashing",
+        "Authentication and authorization handled through JSON Web Tokens (JWT)",
+        "File management and uploading achieved using Multer in Node.js",
+        "Routing requests efficiently with Express Router",
+        "Developed middleware functions for token validation and admin authorization",
+        "Designed a SQL database with over ten interconnected tables",
+        "Implemented admin actions and confirmation functionality"
+      ]
+    },
+    {
+      "id":3,
+      "title": "project3",
+      "briefDescription": "this is my 2nd project!",
+      "bannerUrl": "https://source.unsplash.com/mZnx9429i94",
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/",
+          "icon": "github-white.svg",
+          "hoverIcon": "github.svg"
+        },
+        {
+          "name": "Figma",
+          "url": "https://www.figma.com/",
+          "icon": "figma.svg",
+          "hoverIcon": "figma.svg"
+        },
+        {
+          "name": "Demo",
+          "url": "https://www.figma.com/",
+          "icon": "play-white.svg",
+          "hoverIcon": "play.svg"
+        }
+      ],
+      "ProgrammingLanguages": [
+        "html",
+        "css",
+        "javascript",
+        "python"
+      ],
+      "technologies": [
+        {
+          "name": "tailwind",
+          "description": "tailwind CSS framework"
+        },
+        {
+          "name": "django",
+          "description": "Python Django framework"
+        },
+        {
+          "name": "vue",
+          "description": "Vue.js"
+        }
+      ],
+      "features": [
+        {
+          "title": "feature1",
+          "description": "feature1feature1feature1feature1feature1feature1",
+          "imageAddress": "assets/images/project2-feature1.jpg"
+        },
+        {
+          "title": "feature2",
+          "description": "feature2feature2feature2feature2feature2feature2",
+          "imageAddress": "assets/images/project2-feature2.jpg"
+        }
+      ]
+    },
+    {
+      "id":4,
+      "title": "project4",
+      "briefDescription": "this is my 2nd project!",
+      "bannerUrl": "https://source.unsplash.com/mZnx9429i94",
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/",
+          "icon": "github-white.svg",
+          "hoverIcon": "github.svg"
+        },
+        {
+          "name": "Figma",
+          "url": "https://www.figma.com/",
+          "icon": "figma.svg",
+          "hoverIcon": "figma.svg"
+        },
+        {
+          "name": "Demo",
+          "url": "https://www.figma.com/",
+          "icon": "play-white.svg",
+          "hoverIcon": "play.svg"
+        }
+      ],
+      "ProgrammingLanguages": [
+        "html",
+        "css",
+        "javascript",
+        "python"
+      ],
+      "technologies": [
+        {
+          "name": "tailwind",
+          "description": "tailwind CSS framework"
+        },
+        {
+          "name": "django",
+          "description": "Python Django framework"
+        },
+        {
+          "name": "vue",
+          "description": "Vue.js"
+        }
+      ],
+      "features": [
+        {
+          "title": "feature1",
+          "description": "feature1feature1feature1feature1feature1feature1",
+          "imageAddress": "assets/images/project2-feature1.jpg"
+        },
+        {
+          "title": "feature2",
+          "description": "feature2feature2feature2feature2feature2feature2",
+          "imageAddress": "assets/images/project2-feature2.jpg"
+        }
+      ]
+    },
+    {
+      "id":5,
+      "title": "project5",
       "briefDescription": "this is my 2nd project!",
       "bannerUrl": "https://source.unsplash.com/mZnx9429i94",
       "links": [

@@ -31,16 +31,13 @@ export default {
       <div class="fixed inset-0 bg-black opacity-50" @click = "closeModal"></div>
       <div class="bg-slate-950 border boredr-white relative rounded-lg shadow-lg p-4 md:w-1/2 w-full overflow-y-auto max-h-screen">
         <button @click="closeModal" class="absolute top-4 right-4 text-gray-500 hover:text-gray-700">
-          <img src="../assets/icons/close.svg" />
+          <img src="../assets/icons/closeWhite.svg" />
         </button>
         <div>
           <div class="p-2">
             <h1 class="text-2xl font-fahkwang text-center font-outline-white">{{ viewingProject.title }} </h1>
             <div class="flex flex-wrap">
-              <Carousel :imagesLink="[viewingProject.bannerUrl]"></Carousel>
-              <!-- <img :src="viewingProject.bannerUrl"
-              :alt="viewingProject.title"
-              class="my-2 opacity-50 hover:opacity-100 hover:shadow-lg hover:shadow-cyan-500/50"/> -->
+              <Carousel :imagesLink="viewingProject.bannerUrl" />
               <div>
                 <h3 class="text-lg text-white font-semibold">Features:</h3>
                 <ul class="mx-4">

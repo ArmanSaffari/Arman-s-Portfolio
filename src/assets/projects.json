@@ -43,9 +43,9 @@
       "links": [
         {
           "name": "Visit the Project",
-          "url": "https://github.com/ArmanSaffari/loan-project",
-          "icon": "github-white.svg",
-          "hoverIcon": "github.svg"
+          "url": "https://kish-financial-institute.netlify.app/",
+          "icon": "preview-white.svg",
+          "hoverIcon": "preview.svg"
         },
         {
           "name": "Github",
@@ -70,7 +70,10 @@
         "html",
         "css",
         "javascript",
-        "react"
+        "ES6",
+        "react",
+        "materialUI",
+        "Axios"
       ],
       "technologies": [
         {
@@ -129,6 +132,12 @@
       ],
       "links": [
         {
+          "name": "Visit the Project",
+          "url": "https://kish-financial-institute.netlify.app/",
+          "icon": "preview-white.svg",
+          "hoverIcon": "preview.svg"
+        },
+        {
           "name": "Github",
           "url": "https://github.com/ArmanSaffari/Loan-Project-Backend",
           "icon": "github-white.svg",
@@ -149,8 +158,11 @@
       ],
       "ProgrammingLanguages": [
         "javascript",
+        "ES6",
         "nodejs",
-        "expressjs"
+        "expressjs",
+        "sequelizejs",
+        "jsonWebToken"
       ],
       "technologies": [
         {
@@ -206,20 +218,26 @@
       ],
       "links": [
         {
+          "name": "Visit the Project",
+          "url": "https://armansaffari.github.io/Fanshion-v2/",
+          "icon": "preview-white.svg",
+          "hoverIcon": "preview.svg"
+        },
+        {
           "name": "GitHub",
-          "url": "https://github.com/",
+          "url": "https://github.com/ArmanSaffari/Fanshion-v2",
           "icon": "github-white.svg",
           "hoverIcon": "github.svg"
         },
         {
           "name": "Figma",
-          "url": "https://www.figma.com/",
+          "url": "https://www.figma.com/file/JjEpvXwQ2oT1va9b5J9ISx/Fanshion-Upgrade?type=design&mode=design&t=kvdTYqqlFmzVwKXc-0",
           "icon": "figma.svg",
           "hoverIcon": "figma.svg"
         },
         {
           "name": "Demo",
-          "url": "https://www.figma.com/",
+          "url": "#",
           "icon": "play-white.svg",
           "hoverIcon": "play.svg"
         }
@@ -227,29 +245,36 @@
       "ProgrammingLanguages": [
         "html",
         "css",
+        "bootstrap",
         "javascript",
-        "python"
+        "jQuery2",
+        "firebase"
       ],
       "technologies": [
         {
-          "name": "multer",
-          "description": "middleware to upload file",
-          "icon": "multer.png"
+          "name": "Bootstrap",
+          "description": "Create responsive and visually apealing UI",
+          "icon": "bootstrap.svg"
         },
         {
-          "name": "multer",
-          "description": "middleware to upload file",
-          "icon": "multer.png"
+          "name": "jQuery",
+          "description": "used for DOM manipulation and nice animations",
+          "icon": "jQuery.svg"
         },
         {
-          "name": "multer",
-          "description": "middleware to upload file",
-          "icon": "multer.png"
+          "name": "Firebase Firestore",
+          "description": "Cloud-based NoSQL database",
+          "icon": "firebase.svg"
         },
         {
-          "name": "multer",
-          "description": "middleware to upload file",
-          "icon": "multer.png"
+          "name": "Firebase Storage",
+          "description": "Cloud-based file storage used for user photos",
+          "icon": "firebase.svg"
+        },
+        {
+          "name": "Firebase Authentication",
+          "description": "User authentication service",
+          "icon": "firebase.svg"
         }
       ],
       "features": [
@@ -267,25 +292,39 @@
     },
     {
       "id":4,
-      "title": "project4",
-      "briefDescription": "this is my 2nd project!",
-      "bannerUrl": "https://source.unsplash.com/mZnx9429i94",
+      "title": "Arman's Portfolio",
+      "briefDescription": "My portfolio web project is built using Vue.js and Tailwind CSS, combining the power of a versatile JavaScript framework and a utility-first CSS framework. This project showcases an individual's professional achievements, skills, and projects in a visually appealing manner. Vue.js enables dynamic and interactive components, facilitating seamless navigation and smooth transitions. Tailwind CSS provides a wide range of pre-designed utility classes, allowing for rapid and flexible styling. The combination of Vue.js and Tailwind CSS ensures an efficient and modern development process, resulting in a visually captivating and responsive portfolio website that effectively highlights the individual's expertise and accomplishments.",
+      "bannerUrl": [
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution2.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution3.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution4.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution5.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution6.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution7.png"
+      ],
       "links": [
         {
+          "name": "Visit the Project",
+          "url": "#",
+          "icon": "preview-white.svg",
+          "hoverIcon": "preview.svg"
+        },
+        {
           "name": "GitHub",
-          "url": "https://github.com/",
+          "url": "https://github.com/ArmanSaffari/Arman-s-Portfolio",
           "icon": "github-white.svg",
           "hoverIcon": "github.svg"
         },
         {
           "name": "Figma",
-          "url": "https://www.figma.com/",
+          "url": "https://www.figma.com/file/uofvuqNm6AGUATYJOUqoTh/Untitled?type=design&node-id=0-1&mode=design&t=gFinpFVHYK3P81is-0",
           "icon": "figma.svg",
           "hoverIcon": "figma.svg"
         },
         {
           "name": "Demo",
-          "url": "https://www.figma.com/",
+          "url": "#",
           "icon": "play-white.svg",
           "hoverIcon": "play.svg"
         }
@@ -294,78 +333,91 @@
         "html",
         "css",
         "javascript",
-        "python"
+        "vue",
+        "tailwind"
       ],
       "technologies": [
         {
-          "name": "tailwind",
-          "description": "tailwind CSS framework"
+          "name": "Tailwind",
+          "description": "UI created using Utility-first CSS framework",
+          "icon": "tailwind.svg"
         },
         {
-          "name": "django",
-          "description": "Python Django framework"
-        },
-        {
-          "name": "vue",
-          "description": "Vue.js"
+          "name": "Vue",
+          "description": "Versatile JavaScript framework used to develop single-page web application",
+          "icon": "vue.svg"
         }
       ],
       "features": [
-        {
-          "title": "feature1",
-          "description": "feature1feature1feature1feature1feature1feature1",
-          "imageAddress": "assets/images/project2-feature1.jpg"
-        },
-        {
-          "title": "feature2",
-          "description": "feature2feature2feature2feature2feature2feature2",
-          "imageAddress": "assets/images/project2-feature2.jpg"
-        }
+        "UI Components developed individually to be reusable and flexible",
+        "Vue directives has been uses to ease content change in response to user action",
+        "Filtering cards have been developed to access the features within projects much easier",
+        "incorporated animations to make the page much more appealing to the user"
       ]
     },
     {
       "id":5,
-      "title": "project5",
-      "briefDescription": "this is my 2nd project!",
-      "bannerUrl": "https://source.unsplash.com/mZnx9429i94",
+      "title": "Footbal Fanatics",
+      "briefDescription": "This project has been done using tailwind and incorporates get and post requests to an api provider on Rapid Api.",
+      "bannerUrl": [
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution2.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution3.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution4.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution5.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution6.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/KishFinancialInstitution7.png"
+      ],
       "links": [
         {
+          "name": "Visit the Project",
+          "url": "https://armansaffari.github.io/3-coding-challenge/",
+          "icon": "preview-white.svg",
+          "hoverIcon": "preview.svg"
+        },
+        {
           "name": "GitHub",
-          "url": "https://github.com/",
+          "url": "https://github.com/ArmanSaffari/3-coding-challenge",
           "icon": "github-white.svg",
           "hoverIcon": "github.svg"
         },
         {
-          "name": "Figma",
-          "url": "https://www.figma.com/",
-          "icon": "figma.svg",
-          "hoverIcon": "figma.svg"
-        },
-        {
           "name": "Demo",
-          "url": "https://www.figma.com/",
+          "url": "#",
           "icon": "play-white.svg",
           "hoverIcon": "play.svg"
         }
       ],
       "ProgrammingLanguages": [
         "html",
-        "css",
         "javascript",
-        "python"
+        "tailwind"
       ],
       "technologies": [
         {
           "name": "tailwind",
-          "description": "tailwind CSS framework"
+          "description": "Create responsive and visually apealing UI",
+          "icon": "bootstrap.svg"
         },
         {
-          "name": "django",
-          "description": "Python Django framework"
+          "name": "Rapid API",
+          "description": "an api provider used to provide the data for the webpage.",
+          "icon": "rapidapi.png"
         },
         {
-          "name": "vue",
-          "description": "Vue.js"
+          "name": "Firebase Firestore",
+          "description": "Cloud-based NoSQL database",
+          "icon": "firebase.svg"
+        },
+        {
+          "name": "Firebase Storage",
+          "description": "Cloud-based file storage used for user photos",
+          "icon": "firebase.svg"
+        },
+        {
+          "name": "Firebase Authentication",
+          "description": "User authentication service",
+          "icon": "firebase.svg"
         }
       ],
       "features": [

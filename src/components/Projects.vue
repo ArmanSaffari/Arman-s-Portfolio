@@ -44,25 +44,25 @@ import Carousel from "./Carousel.vue"
         class="flex flex-wrap justify-start items-center p-4 mt-12 w-full
           border border-white rounded-lg shadow text-white hover:bg-gradient-to-br from-teal-500 from-20% to-blue-700 to-80%
           hover:shadow-lg hover:shadow-cyan-500/50"
-        :class="{ hidden: ![1, 2].includes( project.id ) }"
+        :class="{ hidden: ![1, 2, 3, 4, 5].includes( project.id ) }"
       >
-        <div class="relative w-full m-0 overflow-hidden xl:w-1/2">
+        <div class="relative w-full m-0 overflow-hidden xl:w-full">
           <Carousel :imagesLink="project.bannerUrl" />
         </div>
-        <div class="w-full p-2 xl:w-1/2">
+        <div class="w-full p-2 xl:w-full">
           <h5 class="text-2xl font-fahkwang font-bold">
             {{ project.title }}
           </h5>
           <div class="projectLangs flex my-2 gap-1">
             <img
             v-for="lang in project.ProgrammingLanguages"
-              class="h-5 inline rounded-md"
+              class="h-8 inline rounded-md m-1 hover:bg-gradient-to-l from-white to-white"
               :src="getImageUrl(`${lang}.svg`)"
             />
           </div>
           <div class="projectDescription">
             <h4 class="text-md font-semibold">Description:</h4>
-            <p class="ext-md">{{ project.briefDescription }}</p>
+            <p class="text-md">{{ project.briefDescription }}</p>
           </div>
           <div class="projectLinks">
             <h4 class="my-2 font-semibold text-md">View The Project Here:</h4>

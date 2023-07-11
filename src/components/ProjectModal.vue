@@ -35,9 +35,9 @@ export default {
         </button>
         <div>
           <div class="p-2">
-            <h1 class="text-2xl font-fahkwang text-center font-outline-teal">{{ viewingProject.title }} </h1>
+            <h1 class="text-2xl font-fahkwang text-center font-outline-teal my-3">{{ viewingProject.title }} </h1>
             <div class="flex flex-wrap">
-              <Carousel :imagesLink="viewingProject.bannerUrl" />
+              <!-- <Carousel :imagesLink="viewingProject.bannerUrl" /> -->
               <div>
                 <h3 class="text-lg text-white font-semibold">Features:</h3>
                 <ul class="mx-4">
@@ -67,8 +67,8 @@ export default {
             </div>
           </div>
           <div class="p-2">
-            
-            </div>
+            <Carousel :imagesLink="viewingProject.bannerUrl" />
+          </div>
         </div>
         
       </div>

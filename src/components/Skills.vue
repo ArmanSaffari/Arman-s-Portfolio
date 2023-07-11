@@ -96,6 +96,28 @@
           </div>
         </div>
       </div>
+
+      <div class="my-4 p-2 w-full md:w-1/3">
+        <div
+          class="relative p-8 w-full h-full border border-gray-400 rounded-lg 
+          hover:bg-gradient-to-br from-teal-500 from-20% to-blue-700 to-80%
+          hover:shadow-lg hover:shadow-cyan-500/50"
+        >
+          <h5
+            class="pr-1 absolute -top-6 -left-1 text-4xl font-extrabold font-fahkwang font-outline-white rounded-br-2xl"
+          >
+            Other
+          </h5>
+          <div class="flex gap-4 justify-center flex-wrap"> 
+            <img
+            v-for="skill in skillsArray.other" :key="skill.id"
+            :alt="skill.name"
+            class="h-14 inline rounded-lg"
+            v-bind:src="getImageUrl(skill.imgFileName)"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>

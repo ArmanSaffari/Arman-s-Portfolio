@@ -23,8 +23,8 @@
       </div>
       <div class="w-2 grow-0 shrink-0 bg-gradient-to-t from-teal-500 from-10%  to-blue-700 to-90%"></div>
       <div class="w-1/2 flex flex-wrap justify-center">
-        <div v-for="medium in socialMedia" class="py-2 w-full flex flex-wrap justify-center">
-          <a :href="medium.link"  target="_blank" class="flex items-center">
+        <div v-for="medium in socialMedia" class="py-2 w-full flex flex-wrap justifu-center">
+          <a :href="medium.link"  target="_blank" class="mx-auto flex w-32 items-center justify-between">
             <img :src="getImageUrl(medium.icon)" class="h-10 ">
             <h4 class="text-white mx-4 text-lg font-semibold">{{ medium.name }}</h4>
           </a>

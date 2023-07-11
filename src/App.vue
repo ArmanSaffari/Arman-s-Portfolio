@@ -63,6 +63,8 @@ export default {
   </main>
 
   <footer>
-    <ContactMe :socialMedia = "socialMedia" />
+    <ContactMe 
+      id="contactMe"
+      :socialMedia = "socialMedia" />
   </footer>
 </template>

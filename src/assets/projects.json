@@ -28,8 +28,8 @@
     
     ],
     "other": [
-      {"id":1, "name": "version control systems", "imgFileName": "github.svg"},
-      {"id":12, "name": "agile methodology", "imgFileName": "agile.webp"}
+      {"id":1, "name": "version control systems", "imgFileName": "github-white.svg"},
+      {"id":12, "name": "agile methodology", "imgFileName": "agile.png"}
     ]
   },
   "projects": [
@@ -171,7 +171,7 @@
         {
           "name": "express",
           "description": "Lightweight web framework",
-          "icon": "expressjs.svg"
+          "icon": "expressjs2.svg"
         },
         {
           "name": "sequelize",

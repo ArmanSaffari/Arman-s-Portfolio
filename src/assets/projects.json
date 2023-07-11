@@ -3,33 +3,35 @@
     "frontEnd": [
       {"id":1, "name": "html", "imgFileName": "html.svg"},
       {"id":2, "name": "css", "imgFileName": "css.svg"},
-      {"id":3, "name": "bootstrap", "imgFileName": "bootstrap.svg"},
-      {"id":4, "name": "tailwind", "imgFileName": "tailwind.svg"},
-      {"id":5, "name": "javascript", "imgFileName": "javascript.svg"},
+      {"id":3, "name": "Bootstrap", "imgFileName": "bootstrap.svg"},
+      {"id":4, "name": "Tailwind", "imgFileName": "tailwind.svg"},
+      {"id":5, "name": "Javascript", "imgFileName": "javascript.svg"},
       {"id":2, "name": "jQuery", "imgFileName": "jQuery.svg"},
       {"id":6, "name": "ES6", "imgFileName": "ES6.svg"},
-      {"id":7, "name": "react", "imgFileName": "react.svg"},
-      {"id":8, "name": "vue", "imgFileName": "vue.svg"}
+      {"id":7, "name": "React", "imgFileName": "react.svg"},
+      {"id":8, "name": "Vue.js", "imgFileName": "vue.svg"}
 
     ],
     "backEnd": [
       {"id":1, "name": "node.js", "imgFileName": "nodejs.svg"},
-      {"id":2, "name": "express js", "imgFileName": "expressjs.svg"},
-      {"id":2, "name": "sequelize", "imgFileName": "sequelizejs.svg"},
-      {"id":2, "name": "firebase", "imgFileName": "firebase.svg"}
+      {"id":2, "name": "Express.js", "imgFileName": "expressjs.svg"},
+      {"id":3, "name": "Sequelize", "imgFileName": "sequelizejs.svg"},
+      {"id":4, "name": "Firebase", "imgFileName": "firebase.svg"},
+      {"id":5, "name": "mySQL", "imgFileName": "mySQL.svg"}
+      
 
     ],
     "design": [
-      {"id":1, "name": "figma", "imgFileName": "figma.svg"},
-      {"id":2, "name": "adobe XD", "imgFileName": "AdobeXD.svg"},
-      {"id":3, "name": "illusterator", "imgFileName": "AdobeIllustrator.svg"},
-      {"id":4, "name": "photoshop", "imgFileName": "AdobePhotoshop.svg"},
-      {"id":5, "name": "after effects", "imgFileName": "AdobeAfterEffects.svg"}
+      {"id":1, "name": "Figma", "imgFileName": "figma.svg"},
+      {"id":2, "name": "Adobe XD", "imgFileName": "AdobeXD.svg"},
+      {"id":3, "name": "Illusterator", "imgFileName": "AdobeIllustrator.svg"},
+      {"id":4, "name": "Photoshop", "imgFileName": "AdobePhotoshop.svg"},
+      {"id":5, "name": "After Effects", "imgFileName": "AdobeAfterEffects.svg"}
     
     ],
     "other": [
-      {"id":1, "name": "version control systems", "imgFileName": "github-white.svg"},
-      {"id":12, "name": "agile methodology", "imgFileName": "agile.png"}
+      {"id":1, "name": "Version Control Systems", "imgFileName": "github-white.svg"},
+      {"id":2, "name": "Agile Methodology", "imgFileName": "agile.png"}
     ]
   },
   "projects": [

@@ -4,7 +4,7 @@ import Carousel from "./Carousel.vue"
   export default {
     data() {
       return {
-        showTooltip: false
+        showFilterItems: false
       }
     },
     components: {
@@ -37,8 +37,9 @@ import Carousel from "./Carousel.vue"
       Projects
     </h3>
     <div class="left-0 w-1/2 h-2 bg-gradient-to-r from-teal-500 from-30%  to-blue-700 to-90%"></div>
-    <div class="bg-white">
-      <img width="50" height="50" :src="getImageUrl('down.svg')"/>
+    <div class="flex flex-nowrap w-1/2 items-center justify-between">
+      <p class="font-fahkwang text-md text-white">filter</p>
+      <img width="25" height="25" :src="getImageUrl(`down.svg`)"/>
     </div>
     <div class="w-full pb-4 flex flex-wrap">
       <div

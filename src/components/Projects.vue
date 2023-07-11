@@ -56,7 +56,7 @@ import Carousel from "./Carousel.vue"
           <div class="projectLangs flex my-2 gap-1">
             <img
             v-for="lang in project.ProgrammingLanguages"
-              class="h-8 inline rounded-md m-1 hover:bg-gradient-to-l from-white to-white"
+              class="h-10 inline rounded-md p-1 hover:bg-white/25"
               :src="getImageUrl(`${lang}.svg`)"
             />
           </div>

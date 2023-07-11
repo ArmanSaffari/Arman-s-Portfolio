@@ -6,13 +6,15 @@
       {"id":3, "name": "bootstrap", "imgFileName": "bootstrap.svg"},
       {"id":3, "name": "tailwind", "imgFileName": "tailwind.svg"},
       {"id":2, "name": "javascript", "imgFileName": "javascript.svg"},
+      {"id":2, "name": "ES6", "imgFileName": "ES6.svg"},
       {"id":3, "name": "react", "imgFileName": "react.svg"},
       {"id":4, "name": "vue", "imgFileName": "vue.svg"}
 
     ],
     "backEnd": [
       {"id":1, "name": "node.js", "imgFileName": "nodejs.svg"},
-      {"id":2, "name": "express js", "imgFileName": "expressjs.svg"}
+      {"id":2, "name": "express js", "imgFileName": "expressjs.svg"},
+      {"id":2, "name": "sequelize", "imgFileName": "sequelizejs.svg"}
     ],
     "design": [
       {"id":1, "name": "figma", "imgFileName": "figma.svg"},

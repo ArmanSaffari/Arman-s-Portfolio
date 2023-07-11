@@ -6,6 +6,7 @@
       {"id":3, "name": "bootstrap", "imgFileName": "bootstrap.svg"},
       {"id":4, "name": "tailwind", "imgFileName": "tailwind.svg"},
       {"id":5, "name": "javascript", "imgFileName": "javascript.svg"},
+      {"id":2, "name": "jQuery", "imgFileName": "jQuery.svg"},
       {"id":6, "name": "ES6", "imgFileName": "ES6.svg"},
       {"id":7, "name": "react", "imgFileName": "react.svg"},
       {"id":8, "name": "vue", "imgFileName": "vue.svg"}
@@ -14,7 +15,9 @@
     "backEnd": [
       {"id":1, "name": "node.js", "imgFileName": "nodejs.svg"},
       {"id":2, "name": "express js", "imgFileName": "expressjs.svg"},
-      {"id":2, "name": "sequelize", "imgFileName": "sequelizejs.svg"}
+      {"id":2, "name": "sequelize", "imgFileName": "sequelizejs.svg"},
+      {"id":2, "name": "firebase", "imgFileName": "firebase.svg"}
+
     ],
     "design": [
       {"id":1, "name": "figma", "imgFileName": "figma.svg"},
@@ -390,7 +393,7 @@
         {
           "name": "tailwind",
           "description": "Create responsive and visually apealing UI",
-          "icon": "bootstrap.svg"
+          "icon": "tailwind.svg"
         },
         {
           "name": "Rapid API",
@@ -414,17 +417,15 @@
         }
       ],
       "features": [
-        {
-          "title": "feature1",
-          "description": "feature1feature1feature1feature1feature1feature1",
-          "imageAddress": "assets/images/project2-feature1.jpg"
-        },
-        {
-          "title": "feature2",
-          "description": "feature2feature2feature2feature2feature2feature2",
-          "imageAddress": "assets/images/project2-feature2.jpg"
-        }
+        "comunicating with server using HTTP requests",
+        "Getting data from the api provided by Rapid API",
+        "Displaying data in UI components using DOM manipulation"
       ]
     }
+  ],
+  "socialMedia": [
+    {"name": "Github", "link": "https://github.com/ArmanSaffari", "icon":"github-white.svg"},
+    {"name": "LinkedIn", "link": "https://www.linkedin.com/in/arman-saffari/", "icon":"linkedin-white.svg"},
+    {"name": "Pinterest", "link": "https://pin.it/2tTDYjW", "icon":"pinterest-white.svg"}
   ]
 }

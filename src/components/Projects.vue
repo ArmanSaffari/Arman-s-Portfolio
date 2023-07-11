@@ -29,8 +29,7 @@ import Carousel from "./Carousel.vue"
 
 <template>
   <div
-    id="Projects"
-    class="container mx-auto px-4 my-40 lg:w-1/2 overflow-hidden"
+    class="container mx-auto px-4 my-16 py-16 lg:w-1/2 overflow-hidden"
   >
     <h3
       class=" relative text-white text-right font-fahkwang text-3xl w-1/2 whitespace-nowrap tracking-widest"
@@ -38,7 +37,7 @@ import Carousel from "./Carousel.vue"
       Projects
     </h3>
     <div class="left-0 w-1/2 h-2 bg-gradient-to-r from-teal-500 from-30%  to-blue-700 to-90%"></div>
-    <div id="projects" class="w-full pb-4">
+    <div class="w-full pb-4">
       <div
         v-for="project in projectsArray" :key="project.id"
         class="flex flex-wrap justify-start items-center p-4 mt-12 w-full
@@ -69,6 +68,7 @@ import Carousel from "./Carousel.vue"
             <div class="flex gap-2 flex-wrap">
               <a
                 v-for="link in project.links"
+                target="_blank"
                 :href="link.url"
                 class="flex items-center border-2 border-white hover:bg-white hover:text-black p-1 rounded-lg text-bold group"
               >

@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-4 mt-40 lg:w-1/2">
+  <div class="container mx-auto px-4 mt-20 lg:w-1/2">
     <div class="w-full flex px-4 flex-wrap sm:flex-nowrap items-stretch pb-0">
       <img
         src="../assets/images/banner1.png"

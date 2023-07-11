@@ -23,6 +23,7 @@ export default {
     return {
       skillsArray: data.skills,
       projectsArray: data.projects,
+      socialMedia: data.socialMedia,
       isModalOpen: false,
       viewingProject: null
     };
@@ -45,9 +46,12 @@ export default {
 
   <main>
     <StickyNavbar />
-    <AboutMe />
-    <Skills :skillsArray="skillsArray"/>
+    <AboutMe id="aboutMe" />
+    <Skills 
+      :skillsArray="skillsArray"
+      id="skills" />
     <Projects
+      id="projects"
       :projectsArray = "projectsArray"
       :setViewingProject = "setViewingProject"
       :toggleModal = "toggleModal"/>
@@ -59,6 +63,6 @@ export default {
   </main>
 
   <footer>
-    <ContactMe />
+    <ContactMe :socialMedia = "socialMedia" />
   </footer>
 </template>

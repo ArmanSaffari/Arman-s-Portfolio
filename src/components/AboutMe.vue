@@ -1,9 +1,8 @@
 <template>
-  <div class="container mx-auto px-4 my-40 lg:w-1/2">
-    <div id="AboutMe" class="flex items-stretch">
+  <div class="container mx-auto px-4 my-16 lg:w-1/2 py-16">
+    <div class="flex items-stretch">
       <div class="grow-0 w-12 p-0 pr-4 flex">
         <h3
-          id="aboutMe"
           class="font-fahkwang text-white text-3xl w-full self-end whitespace-nowrap tracking-widest origin-center -rotate-90"
         >
           About Me

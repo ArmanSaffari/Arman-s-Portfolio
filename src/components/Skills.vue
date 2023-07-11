@@ -19,7 +19,7 @@
 <template>
   <div
     id="skills"
-    class="container mx-auto px-4 my-40 lg:w-1/2 overflow-hidden"
+    class="container mx-auto px-4 my-16 py-16 lg:w-1/2 overflow-hidden"
   >
     <h3
       class="relative text-white  left-1/2 font-fahkwang text-3xl w-full first-line:whitespace-nowrap tracking-widest"

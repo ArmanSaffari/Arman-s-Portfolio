@@ -43,10 +43,10 @@ export default {
     @mouseover="handleMouseOver"
     @mouseleave="handleMouseLeave">
     <div class="absolute w-full h-full flex justify-between items-center p-3">
-      <button @click="previousImage" class="flex justify-center items-center hover:bg-black/20 h-10 w-10 rounded-full">
+      <button @click="previousImage" class="pl-2 flex justify-center items-center hover:bg-white/25 h-10 w-10 rounded-full">
         <img src="../assets/icons/prev2.svg" />
       </button>
-      <button @click="nextImage" class="flex justify-center items-center hover:bg-black/20 h-10 w-10 rounded-full">
+      <button @click="nextImage" class="flex justify-center items-center hover:bg-white/25 h-10 w-10 rounded-full">
         <img src="../assets/icons/next2.svg" />
       </button>
     </div>

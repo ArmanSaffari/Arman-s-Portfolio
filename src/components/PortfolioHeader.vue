@@ -1,8 +1,20 @@
+<script>
+  export default {
+    props: [
+      'bannerImage'
+    ],
+    methods: {
+      getImageUrl(imgName) {
+        return  `https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/icons/${imgName}`
+      }
+    }
+  }
+</script>
 <template>
   <div class="container mx-auto px-4 mt-20 lg:w-1/2">
     <div class="w-full flex px-4 flex-wrap sm:flex-nowrap items-stretch pb-0">
       <img
-        src="../assets/images/banner1.png"
+        :src="bannerImage"
         alt="Arman Saffari"
         class="inline w-full sm:w-1/2 "
       />

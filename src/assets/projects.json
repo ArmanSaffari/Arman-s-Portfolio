@@ -1,4 +1,5 @@
 {
+  "bannerImage": "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/banner1.png",
   "skills": {
     "frontEnd": [
       {"id":1, "name": "html", "imgFileName": "html.svg"},
@@ -39,6 +40,7 @@
       "id":1,
       "title": "Kish Financial Institution - Front End",
       "briefDescription": "The web development project for Kish Financial Institution, a non-profit organization, encompasses a comprehensive design and development process, incorporating both front-end and back-end components. From visually appealing user interfaces to robust functionality, the project aims to create an intuitive and secure online platform for the institution's financial services.",
+      "categories": ["Design", "Front-End"],
       "bannerUrl": [
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/kishFinancialInstitution-frontEnd/KishFinancialInstitution1.png",
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/kishFinancialInstitution-frontEnd/KishFinancialInstitution2.png",
@@ -129,6 +131,7 @@
       "id":2,
       "title": "Kish Financial Institution - Back End",
       "briefDescription": "The project is a backend application developed in Node.js, providing robust functionality for user authentication, profile management, and seamless integration with a MySQL database. It handles essential tasks such as secure login and sign-up processes, efficient user photo uploading, token generation, and authorization for each request. Additionally, it incorporates CRUD operations to facilitate seamless interaction with the MySQL database. By leveraging Node.js and Express.js, the project ensures efficient request handling and secure routing. Overall, this professional backend project delivers a reliable and scalable solution for managing user data and authentication in a web application.",
+      "categories": ["Back-End"],
       "bannerUrl": [
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/kishFinancialInstitution-backEnd/backEnd1.png",
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/kishFinancialInstitution-backEnd/backEnd2.png",
@@ -212,6 +215,7 @@
       "id":3,
       "title": "Fanshion",
       "briefDescription": "This web development project caters to fashion enthusiasts, offering them a visually appealing platform to share reviews and content. It leverages Firebase's features, including Firestore, Storage, and Authentication, to store products, user data, and profile pictures securely. Users can easily share their fashion reviews while enjoying a seamless and interactive experience.",
+      "categories": ["Design", "Front-End"],
       "bannerUrl": [
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/fanshion/fanshion1.png",
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/fanshion/fanshion2.png",
@@ -301,6 +305,7 @@
       "id":4,
       "title": "Arman's Portfolio",
       "briefDescription": "My portfolio web project is built using Vue.js and Tailwind CSS, combining the power of a versatile JavaScript framework and a utility-first CSS framework. This project showcases an individual's professional achievements, skills, and projects in a visually appealing manner. Vue.js enables dynamic and interactive components, facilitating seamless navigation and smooth transitions. Tailwind CSS provides a wide range of pre-designed utility classes, allowing for rapid and flexible styling. The combination of Vue.js and Tailwind CSS ensures an efficient and modern development process, resulting in a visually captivating and responsive portfolio website that effectively highlights the individual's expertise and accomplishments.",
+      "categories": ["Design", "Front-End"],
       "bannerUrl": [
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/portfolio/portfolio2.png",
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/portfolio/portfolio3.png"
@@ -361,6 +366,7 @@
       "id":5,
       "title": "Footbal Fanatics",
       "briefDescription": "This project has been done using tailwind and incorporates get and post requests to an api provider on Rapid Api.",
+      "categories": ["Design", "Front-End"],
       "bannerUrl": [
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/footbalFanatics/footbalFanatics1.PNG",
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/footbalFanatics/footbalFanatics2.PNG",

@@ -16,7 +16,7 @@
     <div class="flex items-stretch">
       <div class="w-1/2 p-0 flex items-center justify-center">
         <h3
-          class="font-fahkwang text-white text-3xl w-auto whitespace-nowrap tracking-widest"
+          class="font-fahkwang text-white text-2xl sm:text-3xl w-auto whitespace-nowrap tracking-widest"
         >
           Contact Me
         </h3>

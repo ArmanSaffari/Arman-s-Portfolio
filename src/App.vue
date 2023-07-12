@@ -24,6 +24,7 @@ export default {
       skillsArray: data.skills,
       projectsArray: data.projects,
       socialMedia: data.socialMedia,
+      bannerImage: data.bannerImage,
       isModalOpen: false,
       viewingProject: null
     };
@@ -41,7 +42,7 @@ export default {
 
 <template>
   <header>
-    <PortfolioHeader />
+    <PortfolioHeader :bannerImage="bannerImage"/>
   </header>
 
   <main>

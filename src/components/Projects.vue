@@ -4,7 +4,7 @@ import Carousel from "./Carousel.vue"
   export default {
     data() {
       return {
-        showFilterItems: false
+        showProjects: "All",
       }
     },
     components: {
@@ -22,6 +22,28 @@ import Carousel from "./Carousel.vue"
       showProjectModal(id) {
         this.setViewingProject(id);
         this.toggleModal();
+      },
+      toggleFilterItems() {
+        this.showFilterItems = !this.showFilterItems;
+      },
+      changeFilter (category) {
+        this.showProjects = category
+      },
+      hideProject (categories) {
+        if (this.showProjects == 'All' || categories.includes(this.showProjects)) {
+          return false
+        } else {
+          return true
+        }
+      },
+      countProjects(projects, category) {
+        let count = 0;
+        projects.map(project => {
+          if (project.categories.includes(category)) {
+            count++;
+          }
+        })
+        return count
       }
     }
   };
@@ -37,24 +59,54 @@ import Carousel from "./Carousel.vue"
       Projects
     </h3>
     <div class="left-0 w-1/2 h-2 bg-gradient-to-r from-teal-500 from-30%  to-blue-700 to-90%"></div>
-    <div class="flex flex-nowrap w-1/2 items-center justify-between">
-      <p class="font-fahkwang text-md text-white">filter</p>
-      <img width="25" height="25" :src="getImageUrl(`down.svg`)"/>
+  
+    <div class="flex my-4 gap-2 items-end">
+      <h5 class="text-white text-sm sm:text-lg  font-semibold mr-2">Filter: </h5>
+      <button tupe="button" 
+        class="text-xs sm:text-sm font-bold text-slate-950 bg-white self-center px-2 py-[1px] mr-2 rounded-md"
+        :class="{'bg-gradient-to-t from-teal-500  to-blue-700': showProjects == 'All' }"
+        @click="changeFilter('All')" >
+        All ({{ projectsArray.length }})
+      </button>
+      <button tupe="button" 
+        class="text-xs sm:text-sm font-bold text-slate-950 bg-white self-center px-2 py-[1px] mr-2 rounded-md"
+        :class="{ 'bg-gradient-to-t from-teal-500  to-blue-700': showProjects == 'Front-End' }"
+        @click="changeFilter('Front-End')">
+        Front-End ({{ countProjects( projectsArray, 'Front-End') }})
+      </button>
+      <button tupe="button" 
+        class="text-xs sm:text-sm font-bold text-slate-950 bg-white self-center px-2 py-[1px] mr-2 rounded-md"
+        :class="{ 'bg-gradient-to-t from-teal-500  to-blue-700': showProjects == 'Back-End' }"
+        @click="changeFilter('Back-End')">
+        Back-End ({{ countProjects( projectsArray, 'Back-End') }})
+      </button>
+      <button tupe="button" 
+        class="text-xs sm:text-sm font-bold text-slate-950 bg-white self-center px-2 py-[1px] mr-2 rounded-md"
+        :class="{ 'bg-gradient-to-t from-teal-500  to-blue-700': showProjects == 'Design' }"
+        @click="changeFilter('Design')">
+        Design ({{ countProjects( projectsArray, 'Design') }})
+      </button>
     </div>
+
     <div class="w-full pb-4 flex flex-wrap">
       <div
         v-for="project in projectsArray" :key="project.id"
         class="flex flex-wrap justify-start items-start p-4 mt-12 w-full
           border border-white rounded-lg shadow text-white
           hover:shadow-lg hover:shadow-cyan-500/50"
-          
-        :class="{ hidden: ![1, 2, 3, 4, 5].includes( project.id ) }"
+        
+        :class="{ hidden: hideProject( Array.from(project.categories) ) }"
       >
         
       <div class="w-full p-2 xl:w-1/2 xl:pr-2">
-          <h5 class="text-2xl font-fahkwang font-bold">
+          <h5 class="text-2xl font-fahkwang font-bold flex mr-1">
             {{ project.title }}
+            
           </h5>
+          <strong v-for="cat in project.categories"
+              class="text-xs text-slate-950 bg-gradient-to-t from-teal-500  to-blue-700  self-center px-2 py-[1px] mr-2 rounded-md"> 
+              {{ cat }}
+            </strong>
           <div class="projectLangs flex my-2 gap-1">
             <img
             v-for="lang in project.ProgrammingLanguages"

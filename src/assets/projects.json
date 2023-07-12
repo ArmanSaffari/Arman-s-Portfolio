@@ -38,7 +38,7 @@
   "projects": [
     {
       "id":1,
-      "title": "Kish Financial Institution - Front End",
+      "title": "Kish Financial Institution",
       "briefDescription": "The web development project for Kish Financial Institution, a non-profit organization, encompasses a comprehensive design and development process, incorporating both front-end and back-end components. From visually appealing user interfaces to robust functionality, the project aims to create an intuitive and secure online platform for the institution's financial services.",
       "categories": ["Design", "Front-End"],
       "bannerUrl": [
@@ -129,7 +129,7 @@
     },
     {
       "id":2,
-      "title": "Kish Financial Institution - Back End",
+      "title": "Kish Financial Institution",
       "briefDescription": "The project is a backend application developed in Node.js, providing robust functionality for user authentication, profile management, and seamless integration with a MySQL database. It handles essential tasks such as secure login and sign-up processes, efficient user photo uploading, token generation, and authorization for each request. Additionally, it incorporates CRUD operations to facilitate seamless interaction with the MySQL database. By leveraging Node.js and Express.js, the project ensures efficient request handling and secure routing. Overall, this professional backend project delivers a reliable and scalable solution for managing user data and authentication in a web application.",
       "categories": ["Back-End"],
       "bannerUrl": [

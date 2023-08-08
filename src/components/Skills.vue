@@ -35,7 +35,7 @@
         <div
           class="relative p-8 w-full h-full border border-gray-400 rounded-lg 
           hover:bg-gradient-to-br from-teal-500 from-20% to-blue-700 to-80%
-          hover:shadow-lg hover:shadow-cyan-500/50"
+          hover:shadow-lg hover:shadow-cyan-500/50 ease-in-out"
         >
           <h5
             class="pr-1 absolute -top-6 -left-1 text-4xl font-extrabold font-fahkwang font-outline-blue rounded-br-2xl"
@@ -51,6 +51,7 @@
               class="h-14 inline rounded-lg"
               v-bind:src="getImageUrl(skill.imgFileName)"
               />
+              <p class="text-white text-center">{{ skill.name }}</p>
               <div class="absolute hidden group-hover:block top-1/2 left-1/2 z-50 bg-white text-slate-950 rounded-lg px-2 text-center font-semibold">{{ skill.name }}</div>
             </div>
           </div>
@@ -61,7 +62,7 @@
         <div
           class="relative p-8 w-full h-full border border-gray-400 rounded-lg 
           hover:bg-gradient-to-br from-teal-500 from-20% to-blue-700 to-80%
-          hover:shadow-lg hover:shadow-cyan-500/50"
+          hover:shadow-lg hover:shadow-cyan-500/50 ease-in-out"
         >
           <h5
             class="pr-1 absolute -top-6 -left-1 text-4xl font-extrabold font-fahkwang font-outline-sky rounded-br-2xl"
@@ -77,6 +78,7 @@
               class="h-14 inline rounded-lg"
               v-bind:src="getImageUrl(skill.imgFileName)"
               />
+              <p class="text-white text-center">{{ skill.name }}</p>
               <div class="absolute hidden group-hover:block top-1/2 left-1/2 z-50 bg-white text-slate-950 rounded-lg px-2 text-center font-semibold">{{ skill.name }}</div>
             </div>
           </div>
@@ -87,7 +89,7 @@
         <div
           class="relative p-8 w-full h-full border border-gray-400 rounded-lg 
           hover:bg-gradient-to-br from-teal-500 from-20% to-blue-700 to-80%
-          hover:shadow-lg hover:shadow-cyan-500/50"
+          hover:shadow-lg hover:shadow-cyan-500/50 ease-in-out"
         >
           <h5
             class="pr-1 absolute -top-6 -left-1 text-4xl font-extrabold font-fahkwang font-outline-teal rounded-br-2xl"
@@ -103,6 +105,8 @@
               class="h-14 inline rounded-lg"
               v-bind:src="getImageUrl(skill.imgFileName)"
               />
+              <p class="text-white text-center">{{ skill.name }}</p>
+
               <div class="absolute hidden group-hover:block top-1/2 left-1/2 z-50 bg-white text-slate-950 rounded-lg px-2 text-center font-semibold">{{ skill.name }}</div>
             </div>
           </div>
@@ -113,12 +117,12 @@
         <div
           class="relative p-8 w-full h-full border border-gray-400 rounded-lg 
           hover:bg-gradient-to-br from-teal-500 from-20% to-blue-700 to-80%
-          hover:shadow-lg hover:shadow-cyan-500/50"
+          hover:shadow-lg hover:shadow-cyan-500/50 ease-in-out"
         >
           <h5
             class="pr-1 absolute -top-6 -left-1 text-4xl font-extrabold font-fahkwang font-outline-white rounded-br-2xl"
           >
-            Other
+            More
           </h5>
           <div class="flex gap-4 justify-center flex-wrap"> 
             <div class="relative group"
@@ -129,6 +133,8 @@
               class="h-14 inline rounded-lg"
               v-bind:src="getImageUrl(skill.imgFileName)"
               />
+              <p class="text-white text-center">{{ skill.name }}</p>
+
               <div class="absolute hidden group-hover:block top-1/2 left-1/2 z-50 bg-white text-slate-950 rounded-lg px-2 text-center font-semibold">{{ skill.name }}</div>
             </div>
           </div>

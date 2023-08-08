@@ -107,7 +107,7 @@ import Carousel from "./Carousel.vue"
               class="text-xs text-slate-950 bg-gradient-to-t from-teal-500  to-blue-700  self-center px-2 py-[1px] mr-2 rounded-md"> 
               {{ cat }}
             </strong>
-          <div class="projectLangs flex my-2 gap-1">
+          <div class="projectLangs flex my-2 gap-1 flex-wrap">
             <img
             v-for="lang in project.ProgrammingLanguages"
               class="h-10 inline rounded-md p-1 hover:bg-white/25"
@@ -147,8 +147,8 @@ import Carousel from "./Carousel.vue"
               </a>
             </div>
           </div>
-          <div class="projectFeatures py-2 hover:font-bold pl-">
-            <button type="button" @click = "showProjectModal(project.id)">See All Features Here!</button>
+          <div class="projectFeatures py-2 hover:font-bold hover:text-teal-500">
+            <button class="float-right" type="button" @click = "showProjectModal(project.id)">See All Features Here!</button>
           </div>
         </div>
 

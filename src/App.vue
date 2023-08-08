@@ -42,7 +42,7 @@ export default {
     },
     beforeEnter (el) {
       el.style.opacity = 0;
-      el.style.transform = 'translateY(150px)';
+      // el.style.transform = 'translateY(150px)';
     },
     enter (el, done) {
       const tl = gsap.timeline({
@@ -59,7 +59,7 @@ export default {
       
       tl.to(el, {
           opacity: 1,
-          y: '0',
+          y: '-=100',
           duration: 2,
           ease: "power1.in",
           onComplete: done

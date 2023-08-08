@@ -313,7 +313,7 @@
       "links": [
         {
           "name": "Visit the Project",
-          "url": "#",
+          "url": "https://arman-s-portfolio.netlify.app/",
           "icon": "preview-white.svg",
           "hoverIcon": "preview.svg"
         },
@@ -341,7 +341,8 @@
         "css",
         "javascript",
         "vue",
-        "tailwind"
+        "tailwind",
+        "gsap"
       ],
       "technologies": [
         {

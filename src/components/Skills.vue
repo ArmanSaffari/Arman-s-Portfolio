@@ -25,13 +25,12 @@
       class="relative text-white  left-1/2 font-fahkwang text-3xl w-full first-line:whitespace-nowrap tracking-widest"
     >
     Skills
-
     </h3>
     <div
       class="relative left-1/2 w-7/12 mb-6 bg-gradient-to-l from-teal-500 from-30%  to-blue-700 to-90% h-2"
     ></div>
     <div class="w-full flex flex-wrap items-stretch	">
-      <div class="my-4 p-2 w-full md:w-1/2 2xl:w-1/4">
+      <div class="my-4 p-2 w-full md:w-1/2 ">
         <div
           class="relative p-8 w-full h-full border border-gray-400 rounded-lg 
           hover:bg-gradient-to-br from-teal-500 from-20% to-blue-700 to-80%
@@ -58,7 +57,7 @@
         </div>
       </div>
 
-      <div class="my-4 p-2 w-full md:w-1/2 2xl:w-1/4 ">
+      <div class="my-4 p-2 w-full md:w-1/2  ">
         <div
           class="relative p-8 w-full h-full border border-gray-400 rounded-lg 
           hover:bg-gradient-to-br from-teal-500 from-20% to-blue-700 to-80%
@@ -85,7 +84,7 @@
         </div>
       </div>
 
-      <div class="my-4 p-2 w-full md:w-1/2 2xl:w-1/4">
+      <div class="my-4 p-2 w-full md:w-1/2 ">
         <div
           class="relative p-8 w-full h-full border border-gray-400 rounded-lg 
           hover:bg-gradient-to-br from-teal-500 from-20% to-blue-700 to-80%
@@ -113,7 +112,7 @@
         </div>
       </div>
 
-      <div class="my-4 p-2 w-full md:w-1/2 2xl:w-1/4">
+      <div class="my-4 p-2 w-full md:w-1/2 ">
         <div
           class="relative p-8 w-full h-full border border-gray-400 rounded-lg 
           hover:bg-gradient-to-br from-teal-500 from-20% to-blue-700 to-80%

@@ -22,9 +22,9 @@
             ease: "power1-out" 
           },
         })
-        tl.to('#title', { scale: 1}, )
-          .to('#bannerImage', { opacity: 1, y: '-=80'}, 0.6)
-          .to('#name', { opacity: 1, durtion: 3}, 0.6)
+        tl.to('#title', { scale: 1} )
+          .to('#bannerImage', { opacity: 1, y: '-=80'}, 0.5)
+          .to('#name', { opacity: 1, durtion: 3}, 0.5)
         
       },
     }

@@ -10,7 +10,8 @@ import data from "./assets/projects.json";
 
 import gsap from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-gsap.registerPlugin(ScrollTrigger);
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
 export default {
   components: {
@@ -56,7 +57,6 @@ export default {
             // markers: true,
           }
       });
-      
       tl.to(el, {
           opacity: 1,
           y: '-=100',
@@ -65,6 +65,15 @@ export default {
           onComplete: done
         });
     },
+    navigateTo(id) {
+      const section = document.getElementById(id);
+      console.log(section)
+      gsap.to(window, {
+        duration: 1,
+        scrollTo: { y: section, offsetY: 100 },
+        ease: 'power2.inOut'
+      });
+    }
   }
 };
 </script>
@@ -75,7 +84,7 @@ export default {
   </header>
 
   <main>
-    <StickyNavbar />
+    <StickyNavbar @navigateTo= "navigateTo" />
 
     <transition
       appear

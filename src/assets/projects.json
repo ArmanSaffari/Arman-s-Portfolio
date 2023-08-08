@@ -10,7 +10,8 @@
       {"id":2, "name": "jQuery", "imgFileName": "jQuery.svg"},
       {"id":6, "name": "ES6", "imgFileName": "ES6.svg"},
       {"id":7, "name": "React", "imgFileName": "react.svg"},
-      {"id":8, "name": "Vue.js", "imgFileName": "vue.svg"}
+      {"id":8, "name": "Vue.js", "imgFileName": "vue.svg"},
+      {"id":8, "name": "GSAP", "imgFileName": "gsap.svg"}
 
     ],
     "backEnd": [
@@ -354,6 +355,11 @@
           "name": "Vue",
           "description": "Versatile JavaScript framework used to develop single-page web application",
           "icon": "vue.svg"
+        },
+        {
+          "name": "Gsap",
+          "description": "Powerfull tool to add animations",
+          "icon": "gsap.svg"
         }
       ],
       "features": [

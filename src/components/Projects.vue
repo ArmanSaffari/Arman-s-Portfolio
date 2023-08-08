@@ -108,13 +108,15 @@ import Carousel from "./Carousel.vue"
               {{ cat }}
             </strong>
           <div class="projectLangs flex my-2 gap-1 flex-wrap">
-            <img
-            v-for="lang in project.ProgrammingLanguages"
-              class="h-10 inline rounded-md p-1 hover:bg-white/25"
-              :src="getImageUrl(`${lang}.svg`)"
-            />
+            <div class="relative group"
+              v-for="lang in project.ProgrammingLanguages" >
+              <img
+                class="h-10 inline rounded-md p-1 hover:bg-white/25"
+                :src="getImageUrl(`${lang}.svg`)"
+              />
+              <div class="absolute hidden group-hover:block top-1/2 left-1/2 z-50 bg-white text-slate-950 rounded-lg px-2 text-center font-semibold">{{ lang }}</div>
+            </div>
           </div>
-          
         </div>
 
         <div class="relative w-full m-0 overflow-hidden xl:w-1/2">

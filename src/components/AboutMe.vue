@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-4 my-16 lg:w-1/2 py-16">
+  <div class="container mx-auto px-4 mt-40 mb-16 lg:w-1/2 py-16">
     <div class="flex items-stretch">
       <div class="grow-0 w-12 p-0 pr-4 flex">
         <h3

@@ -12,7 +12,7 @@
 </script>
 
 <template>
-  <div class="container mx-auto px-4 my-16 lg:w-1/2 py-16">
+  <div class="container mx-auto px-4 mt-16 mb-80 lg:w-1/2 py-16">
     <div class="flex items-stretch">
       <div class="w-1/2 p-0 flex items-center justify-center">
         <h3

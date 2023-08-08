@@ -51,7 +51,7 @@ import Carousel from "./Carousel.vue"
 
 <template>
   <div
-    class="container mx-auto px-4 my-16 py-16 lg:w-1/2 overflow-hidden"
+    class="container mx-auto px-4 my-16 lg:w-1/2 overflow-hidden"
   >
     <h3
       class=" relative text-white text-right font-fahkwang text-3xl w-1/2 whitespace-nowrap tracking-widest"

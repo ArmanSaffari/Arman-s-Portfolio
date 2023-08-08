@@ -8,6 +8,10 @@ import StickyNavbar from "./components/StickyNavbar.vue";
 import ContactMe from "./components/ContactMe.vue";
 import data from "./assets/projects.json";
 
+import gsap from 'gsap';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
 export default {
   components: {
     PortfolioHeader,
@@ -35,28 +39,74 @@ export default {
     },
     toggleModal() {
       this.isModalOpen = !this.isModalOpen;
-    }
+    },
+    beforeEnter (el) {
+      el.style.opacity = 0;
+      el.style.transform = 'translateY(150px)';
+    },
+    enter (el, done) {
+      const tl = gsap.timeline({
+        scrollTrigger: {
+            trigger: el,
+            id: el.id,
+            toggleActions: "restart pause resume pause",
+            start: "top 75%",
+            end: "300px 75%",
+            scrub: true,
+            // markers: true,
+          }
+      });
+      
+      tl.to(el, {
+          opacity: 1,
+          y: '0',
+          duration: 2,
+          ease: "power1.in",
+          onComplete: done
+        });
+    },
   }
 };
 </script>
 
 <template>
   <header>
-    <PortfolioHeader :bannerImage="bannerImage"/>
+    <PortfolioHeader ref="portfolioHeader" :bannerImage="bannerImage"/>
   </header>
 
   <main>
     <StickyNavbar />
-    <AboutMe id="aboutMe" />
-    <Skills 
-      :skillsArray="skillsArray"
-      id="skills" />
-    <Projects
-      id="projects"
-      :projectsArray = "projectsArray"
-      :setViewingProject = "setViewingProject"
-      :toggleModal = "toggleModal"/>
 
+    <transition
+      appear
+      @before-enter="beforeEnter"
+      @enter="enter"
+    >
+      <AboutMe id="aboutMe" />
+    </transition>
+
+    <transition
+      appear
+      @before-enter="beforeEnter"
+      @enter="enter"
+    >
+      <Skills 
+        :skillsArray="skillsArray"
+        id="skills" ref="skills"/>
+    </transition>
+
+    <transition
+      appear
+      @before-enter="beforeEnter"
+      @enter="enter"
+    >
+      <Projects
+        id="projects"
+        :projectsArray = "projectsArray"
+        :setViewingProject = "setViewingProject"
+        :toggleModal = "toggleModal"/>
+    </transition>
+    
     <ProjectModal
       v-if="isModalOpen"
       @close="toggleModal"
@@ -64,8 +114,14 @@ export default {
   </main>
 
   <footer>
-    <ContactMe 
-      id="contactMe"
-      :socialMedia = "socialMedia" />
+    <transition
+      appear
+      @before-enter="beforeEnter"
+      @enter="enter"
+    >
+      <ContactMe 
+        id="contactMe"
+        :socialMedia = "socialMedia" />
+    </transition>
   </footer>
 </template>

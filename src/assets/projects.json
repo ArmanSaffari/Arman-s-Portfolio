@@ -436,6 +436,48 @@
         "Getting data from the api provided by Rapid API",
         "Displaying data in UI components using DOM manipulation"
       ]
+    },
+    {
+      "id":6,
+      "title": "ExpeditionX",
+      "briefDescription": "The website design for a travel agency.",
+      "categories": ["Design"],
+      "bannerUrl": [
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/1.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/2.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/4.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/5.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/6.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/7.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/9.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/10.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/10.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/12.png"
+      ],
+      "links": [
+        {
+          "name": "Xd File",
+          "url": "https://drive.google.com/file/d/1kH6N0pGfhX7mvedb1tTw0de4p4Ppum-7/view?usp=drive_link",
+          "icon": "preview-white.svg",
+          "hoverIcon": "preview.svg"
+        },
+        {
+          "name": "Demo",
+          "url": "#",
+          "icon": "play-white.svg",
+          "hoverIcon": "play.svg"
+        }
+      ],
+      "ProgrammingLanguages": [
+        "AdobeXD"
+      ],
+      "technologies": [
+      ],
+      "features": [
+        "Responsive Design",
+        "User-Centered Design",
+        "Visual Appeal and Branding"
+      ]
     }
   ],
   "socialMedia": [

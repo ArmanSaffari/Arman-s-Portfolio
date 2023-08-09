@@ -27,9 +27,9 @@ export default {
 
 <template>
   <transition name="modal">
-    <div class="fixed inset-0 flex items-center justify-center z-50">
-      <div class="fixed inset-0 bg-black opacity-50" @click = "closeModal"></div>
-      <div class="bg-slate-950 border boredr-white relative rounded-lg shadow-lg p-4 md:w-1/2 w-full overflow-y-auto max-h-screen">
+    <div class="w-screen fixed inset-0 flex items-center justify-center z-50">
+      <div class="fixed inset-0 bg-black opacity-50 w-full" @click = "closeModal"></div>
+      <div class="bg-slate-950 md:w-1/2 border boredr-white relative rounded-lg shadow-lg p-4 w-full overflow-y-auto max-h-screen">
         <button @click="closeModal" class="absolute top-4 right-4 text-gray-500 hover:text-gray-700">
           <img src="../assets/icons/closeWhite.svg" />
         </button>
@@ -70,7 +70,6 @@ export default {
             <Carousel :imagesLink="viewingProject.bannerUrl" />
           </div>
         </div>
-        
       </div>
     </div>
   </transition>

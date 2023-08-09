@@ -51,7 +51,7 @@
               v-bind:src="getImageUrl(skill.imgFileName)"
               />
               <p class="text-white text-center">{{ skill.name }}</p>
-              <div class="absolute hidden group-hover:block top-1/2 left-1/2 z-50 bg-white text-slate-950 rounded-lg px-2 text-center font-semibold">{{ skill.name }}</div>
+              <!-- <div class="absolute hidden group-hover:block top-1/2 left-1/2 z-50 bg-white text-slate-950 rounded-lg px-2 text-center font-semibold">{{ skill.name }}</div> -->
             </div>
           </div>
         </div>
@@ -106,7 +106,7 @@
               />
               <p class="text-white text-center">{{ skill.name }}</p>
 
-              <div class="absolute hidden group-hover:block top-1/2 left-1/2 z-50 bg-white text-slate-950 rounded-lg px-2 text-center font-semibold">{{ skill.name }}</div>
+              <!-- <div class="absolute hidden group-hover:block top-1/2 left-1/2 z-50 bg-white text-slate-950 rounded-lg px-2 text-center font-semibold">{{ skill.name }}</div> -->
             </div>
           </div>
         </div>
@@ -134,7 +134,7 @@
               />
               <p class="text-white text-center">{{ skill.name }}</p>
 
-              <div class="absolute hidden group-hover:block top-1/2 left-1/2 z-50 bg-white text-slate-950 rounded-lg px-2 text-center font-semibold">{{ skill.name }}</div>
+              <!-- <div class="absolute hidden group-hover:block top-1/2 left-1/2 z-50 bg-white text-slate-950 rounded-lg px-2 text-center font-semibold">{{ skill.name }}</div> -->
             </div>
           </div>
         </div>

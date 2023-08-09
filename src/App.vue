@@ -39,7 +39,11 @@ export default {
       this.viewingProject = data.projects[i-1]
     },
     toggleModal() {
+      (this.isModalOpen) ? 
+        document.body.classList.remove('overflow-hidden') :
+        document.body.classList.add('overflow-hidden')
       this.isModalOpen = !this.isModalOpen;
+      
     },
     beforeEnter (el) {
       el.style.opacity = 0;

@@ -1,17 +1,16 @@
 <template>
-  <div class="container mx-auto px-4 mt-40 mb-16 lg:w-1/2 py-16">
+  <div class="container mx-auto px-4 mt-40 mb-16 lg:w-3/4 py-16">
     <div class="flex items-stretch">
       <div class="grow-0 w-12 p-0 pr-4 flex">
         <h3
-          class="font-fahkwang text-white text-3xl w-full self-end whitespace-nowrap tracking-widest origin-center -rotate-90"
-        >
+          class="font-fahkwang text-white text-3xl w-full self-end whitespace-nowrap tracking-widest origin-center -rotate-90">
           About Me
         </h3>
       </div>
       <div class="w-2 grow-0 shrink-0 bg-gradient-to-t from-teal-500 from-10%  to-blue-700 to-90%"></div>
       <div class="pl-4 grow">
         <p class="text-slate-300">
-          I'm Arman Saffari, a passionate and dedicated Full Stack Web
+          I'm Arman Saffari, a passionate and dedicated Web Designer and
           Developer based in Toronto. With a strong enthusiasm for continuous
           learning and growth in web development, I thrive on building
           innovative and user-friendly web applications. With experience as a

@@ -36,38 +36,38 @@ export default {
   },
   methods: {
     setViewingProject(i) {
-      this.viewingProject = data.projects[i-1]
+      this.viewingProject = data.projects[i - 1]
     },
     toggleModal() {
-      (this.isModalOpen) ? 
+      (this.isModalOpen) ?
         document.body.classList.remove('overflow-hidden') :
         document.body.classList.add('overflow-hidden')
       this.isModalOpen = !this.isModalOpen;
-      
+
     },
-    beforeEnter (el) {
+    beforeEnter(el) {
       el.style.opacity = 0;
       // el.style.transform = 'translateY(150px)';
     },
-    enter (el, done) {
+    enter(el, done) {
       const tl = gsap.timeline({
         scrollTrigger: {
-            trigger: el,
-            id: el.id,
-            toggleActions: "restart pause resume pause",
-            start: "top 75%",
-            end: "300px 75%",
-            scrub: true,
-            // markers: true,
-          }
+          trigger: el,
+          id: el.id,
+          toggleActions: "restart pause resume pause",
+          start: "top 75%",
+          end: "300px 75%",
+          scrub: true,
+          // markers: true,
+        }
       });
       tl.to(el, {
-          opacity: 1,
-          y: '-=100',
-          duration: 2,
-          ease: "power1.in",
-          onComplete: done
-        });
+        opacity: 1,
+        y: '-=100',
+        duration: 2,
+        ease: "power1.in",
+        onComplete: done
+      });
     },
     navigateTo(id) {
       const section = document.getElementById(id);
@@ -84,57 +84,31 @@ export default {
 
 <template>
   <header>
-    <PortfolioHeader ref="portfolioHeader" :bannerImage="bannerImage"/>
+    <PortfolioHeader ref="portfolioHeader" :bannerImage="bannerImage" />
   </header>
 
   <main>
-    <StickyNavbar @navigateTo= "navigateTo" />
+    <StickyNavbar @navigateTo="navigateTo" />
 
-    <transition
-      appear
-      @before-enter="beforeEnter"
-      @enter="enter"
-    >
+    <transition appear @before-enter="beforeEnter" @enter="enter">
       <AboutMe id="aboutMe" />
     </transition>
 
-    <transition
-      appear
-      @before-enter="beforeEnter"
-      @enter="enter"
-    >
-      <Skills 
-        :skillsArray="skillsArray"
-        id="skills" ref="skills"/>
+    <transition appear @before-enter="beforeEnter" @enter="enter">
+      <Skills :skillsArray="skillsArray" id="skills" ref="skills" />
     </transition>
 
-    <transition
-      appear
-      @before-enter="beforeEnter"
-      @enter="enter"
-    >
-      <Projects
-        id="projects"
-        :projectsArray = "projectsArray"
-        :setViewingProject = "setViewingProject"
-        :toggleModal = "toggleModal"/>
+    <transition appear @before-enter="beforeEnter" @enter="enter">
+      <Projects id="projects" :projectsArray="projectsArray" :setViewingProject="setViewingProject"
+        :toggleModal="toggleModal" />
     </transition>
-    
-    <ProjectModal
-      v-if="isModalOpen"
-      @close="toggleModal"
-      :viewingProject = "viewingProject"/>
+
+    <ProjectModal v-if="isModalOpen" @close="toggleModal" :viewingProject="viewingProject" />
   </main>
 
   <footer>
-    <transition
-      appear
-      @before-enter="beforeEnter"
-      @enter="enter"
-    >
-      <ContactMe 
-        id="contactMe"
-        :socialMedia = "socialMedia" />
+    <transition appear @before-enter="beforeEnter" @enter="enter">
+      <ContactMe id="contactMe" :socialMedia="socialMedia" />
     </transition>
   </footer>
 </template>

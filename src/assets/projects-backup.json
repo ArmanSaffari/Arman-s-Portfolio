@@ -2,133 +2,46 @@
   "bannerImage": "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/banner1.png",
   "skills": {
     "frontEnd": [
-      {
-        "id": 1,
-        "name": "html",
-        "imgFileName": "html.svg"
-      },
-      {
-        "id": 2,
-        "name": "css",
-        "imgFileName": "css.svg"
-      },
-      {
-        "id": 3,
-        "name": "Bootstrap",
-        "imgFileName": "bootstrap.svg"
-      },
-      {
-        "id": 4,
-        "name": "Tailwind",
-        "imgFileName": "tailwind.svg"
-      },
-      {
-        "id": 5,
-        "name": "Javascript",
-        "imgFileName": "javascript.svg"
-      },
-      {
-        "id": 2,
-        "name": "jQuery",
-        "imgFileName": "jQuery.svg"
-      },
-      {
-        "id": 6,
-        "name": "ES6",
-        "imgFileName": "ES6.svg"
-      },
-      {
-        "id": 7,
-        "name": "React",
-        "imgFileName": "react.svg"
-      },
-      {
-        "id": 8,
-        "name": "Vue.js",
-        "imgFileName": "vue.svg"
-      },
-      {
-        "id": 8,
-        "name": "GSAP",
-        "imgFileName": "gsap.svg"
-      }
+      {"id":1, "name": "html", "imgFileName": "html.svg"},
+      {"id":2, "name": "css", "imgFileName": "css.svg"},
+      {"id":3, "name": "Bootstrap", "imgFileName": "bootstrap.svg"},
+      {"id":4, "name": "Tailwind", "imgFileName": "tailwind.svg"},
+      {"id":5, "name": "Javascript", "imgFileName": "javascript.svg"},
+      {"id":2, "name": "jQuery", "imgFileName": "jQuery.svg"},
+      {"id":6, "name": "ES6", "imgFileName": "ES6.svg"},
+      {"id":7, "name": "React", "imgFileName": "react.svg"},
+      {"id":8, "name": "Vue.js", "imgFileName": "vue.svg"},
+      {"id":8, "name": "GSAP", "imgFileName": "gsap.svg"}
+
     ],
     "backEnd": [
-      {
-        "id": 1,
-        "name": "node.js",
-        "imgFileName": "nodejs.svg"
-      },
-      {
-        "id": 2,
-        "name": "Express.js",
-        "imgFileName": "expressjs.svg"
-      },
-      {
-        "id": 3,
-        "name": "Sequelize",
-        "imgFileName": "sequelizejs.svg"
-      },
-      {
-        "id": 4,
-        "name": "Firebase",
-        "imgFileName": "firebase.svg"
-      },
-      {
-        "id": 5,
-        "name": "mySQL",
-        "imgFileName": "mySQL.svg"
-      }
+      {"id":1, "name": "node.js", "imgFileName": "nodejs.svg"},
+      {"id":2, "name": "Express.js", "imgFileName": "expressjs.svg"},
+      {"id":3, "name": "Sequelize", "imgFileName": "sequelizejs.svg"},
+      {"id":4, "name": "Firebase", "imgFileName": "firebase.svg"},
+      {"id":5, "name": "mySQL", "imgFileName": "mySQL.svg"}
+      
+
     ],
     "design": [
-      {
-        "id": 1,
-        "name": "Figma",
-        "imgFileName": "figma.svg"
-      },
-      {
-        "id": 2,
-        "name": "Adobe XD",
-        "imgFileName": "AdobeXD.svg"
-      },
-      {
-        "id": 3,
-        "name": "Illusterator",
-        "imgFileName": "AdobeIllustrator.svg"
-      },
-      {
-        "id": 4,
-        "name": "Photoshop",
-        "imgFileName": "AdobePhotoshop.svg"
-      },
-      {
-        "id": 5,
-        "name": "After Effects",
-        "imgFileName": "AdobeAfterEffects.svg"
-      }
+      {"id":1, "name": "Figma", "imgFileName": "figma.svg"},
+      {"id":2, "name": "Adobe XD", "imgFileName": "AdobeXD.svg"},
+      {"id":3, "name": "Illusterator", "imgFileName": "AdobeIllustrator.svg"},
+      {"id":4, "name": "Photoshop", "imgFileName": "AdobePhotoshop.svg"},
+      {"id":5, "name": "After Effects", "imgFileName": "AdobeAfterEffects.svg"}
+    
     ],
     "other": [
-      {
-        "id": 1,
-        "name": "Version Control Systems",
-        "imgFileName": "github-white.svg"
-      },
-      {
-        "id": 2,
-        "name": "Agile Methodology",
-        "imgFileName": "agile.png"
-      }
+      {"id":1, "name": "Version Control Systems", "imgFileName": "github-white.svg"},
+      {"id":2, "name": "Agile Methodology", "imgFileName": "agile.png"}
     ]
   },
   "projects": [
     {
-      "id": 1,
+      "id":1,
       "title": "Kish Financial Institution",
       "briefDescription": "The web development project for Kish Financial Institution, a non-profit organization, encompasses a comprehensive design and development process, incorporating both front-end and back-end components. From visually appealing user interfaces to robust functionality, the project aims to create an intuitive and secure online platform for the institution's financial services.",
-      "categories": [
-        "Design",
-        "Front-End"
-      ],
+      "categories": ["Design", "Front-End"],
       "bannerUrl": [
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/kishFinancialInstitution-frontEnd/KishFinancialInstitution1.png",
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/kishFinancialInstitution-frontEnd/KishFinancialInstitution2.png",
@@ -159,7 +72,7 @@
         },
         {
           "name": "Demo",
-          "url": "https://youtu.be/uGzSbinxdaM",
+          "url": "#",
           "icon": "play-white.svg",
           "hoverIcon": "play.svg"
         }
@@ -203,7 +116,7 @@
           "name": "Material Icons",
           "description": "Material Icons is an icon library utilized in the project, providing a wide range of scalable and customizable icons that adhere to the material design principles. These icons enhance the visual appeal and usability of the application.",
           "icon": "materialUI.svg"
-        }
+        } 
       ],
       "features": [
         "Streamlined user authentication with an intuitive login and sign-up interface",
@@ -216,48 +129,10 @@
       ]
     },
     {
-      "id": 2,
-      "title": "ExpeditionX",
-      "briefDescription": "The website design for a travel agency.",
-      "categories": [
-        "Design"
-      ],
-      "bannerUrl": [
-        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/1.png",
-        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/2.png",
-        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/4.png",
-        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/5.png",
-        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/6.png",
-        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/7.png",
-        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/9.png",
-        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/10.png",
-        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/10.png"
-      ],
-      "links": [
-        {
-          "name": "Xd File",
-          "url": "https://drive.google.com/file/d/1kH6N0pGfhX7mvedb1tTw0de4p4Ppum-7/view?usp=drive_link",
-          "icon": "preview-white.svg",
-          "hoverIcon": "preview.svg"
-        }
-      ],
-      "ProgrammingLanguages": [
-        "AdobeXD"
-      ],
-      "technologies": [],
-      "features": [
-        "Responsive Design",
-        "User-Centered Design",
-        "Visual Appeal and Branding"
-      ]
-    },
-    {
-      "id": 3,
+      "id":2,
       "title": "Kish Financial Institution",
       "briefDescription": "The project is a backend application developed in Node.js, providing robust functionality for user authentication, profile management, and seamless integration with a MySQL database. It handles essential tasks such as secure login and sign-up processes, efficient user photo uploading, token generation, and authorization for each request. Additionally, it incorporates CRUD operations to facilitate seamless interaction with the MySQL database. By leveraging Node.js and Express.js, the project ensures efficient request handling and secure routing. Overall, this professional backend project delivers a reliable and scalable solution for managing user data and authentication in a web application.",
-      "categories": [
-        "Back-End"
-      ],
+      "categories": ["Back-End"],
       "bannerUrl": [
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/kishFinancialInstitution-backEnd/backEnd1.png",
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/kishFinancialInstitution-backEnd/backEnd2.png",
@@ -282,6 +157,12 @@
           "url": "https://www.figma.com/file/tGPLeNWavwVdyV3bEzoNHy/Main?type=design&node-id=0-1&mode=design&t=HtaSOTSCF7fo5wYS-0",
           "icon": "figma.svg",
           "hoverIcon": "figma.svg"
+        },
+        {
+          "name": "Demo",
+          "url": "#",
+          "icon": "play-white.svg",
+          "hoverIcon": "play.svg"
         }
       ],
       "ProgrammingLanguages": [
@@ -332,13 +213,10 @@
       ]
     },
     {
-      "id": 4,
+      "id":3,
       "title": "Fanshion",
       "briefDescription": "This web development project caters to fashion enthusiasts, offering them a visually appealing platform to share reviews and content. It leverages Firebase's features, including Firestore, Storage, and Authentication, to store products, user data, and profile pictures securely. Users can easily share their fashion reviews while enjoying a seamless and interactive experience.",
-      "categories": [
-        "Design",
-        "Front-End"
-      ],
+      "categories": ["Design", "Front-End"],
       "bannerUrl": [
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/fanshion/fanshion1.png",
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/fanshion/fanshion2.png",
@@ -348,6 +226,7 @@
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/fanshion/fanshion6.png",
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/fanshion/fanshion7.png",
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/fanshion/fanshion8.png"
+
       ],
       "links": [
         {
@@ -367,6 +246,12 @@
           "url": "https://www.figma.com/file/JjEpvXwQ2oT1va9b5J9ISx/Fanshion-Upgrade?type=design&mode=design&t=kvdTYqqlFmzVwKXc-0",
           "icon": "figma.svg",
           "hoverIcon": "figma.svg"
+        },
+        {
+          "name": "Demo",
+          "url": "#",
+          "icon": "play-white.svg",
+          "hoverIcon": "play.svg"
         }
       ],
       "ProgrammingLanguages": [
@@ -418,13 +303,10 @@
       ]
     },
     {
-      "id": 5,
+      "id":4,
       "title": "Arman's Portfolio",
       "briefDescription": "My portfolio web project is built using Vue.js and Tailwind CSS, combining the power of a versatile JavaScript framework and a utility-first CSS framework. This project showcases an individual's professional achievements, skills, and projects in a visually appealing manner. Vue.js enables dynamic and interactive components, facilitating seamless navigation and smooth transitions. Tailwind CSS provides a wide range of pre-designed utility classes, allowing for rapid and flexible styling. The combination of Vue.js and Tailwind CSS ensures an efficient and modern development process, resulting in a visually captivating and responsive portfolio website that effectively highlights the individual's expertise and accomplishments.",
-      "categories": [
-        "Design",
-        "Front-End"
-      ],
+      "categories": ["Design", "Front-End"],
       "bannerUrl": [
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/portfolio/portfolio2.png",
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/portfolio/portfolio3.png"
@@ -447,6 +329,12 @@
           "url": "https://www.figma.com/file/uofvuqNm6AGUATYJOUqoTh/Untitled?type=design&node-id=0-1&mode=design&t=gFinpFVHYK3P81is-0",
           "icon": "figma.svg",
           "hoverIcon": "figma.svg"
+        },
+        {
+          "name": "Demo",
+          "url": "#",
+          "icon": "play-white.svg",
+          "hoverIcon": "play.svg"
         }
       ],
       "ProgrammingLanguages": [
@@ -482,13 +370,10 @@
       ]
     },
     {
-      "id": 6,
+      "id":5,
       "title": "Footbal Fanatics",
       "briefDescription": "This project has been done using tailwind and incorporates get and post requests to an api provider on Rapid Api.",
-      "categories": [
-        "Design",
-        "Front-End"
-      ],
+      "categories": ["Design", "Front-End"],
       "bannerUrl": [
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/footbalFanatics/footbalFanatics1.PNG",
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/footbalFanatics/footbalFanatics2.PNG",
@@ -506,6 +391,12 @@
           "url": "https://github.com/ArmanSaffari/3-coding-challenge",
           "icon": "github-white.svg",
           "hoverIcon": "github.svg"
+        },
+        {
+          "name": "Demo",
+          "url": "#",
+          "icon": "play-white.svg",
+          "hoverIcon": "play.svg"
         }
       ],
       "ProgrammingLanguages": [
@@ -545,23 +436,52 @@
         "Getting data from the api provided by Rapid API",
         "Displaying data in UI components using DOM manipulation"
       ]
+    },
+    {
+      "id":6,
+      "title": "ExpeditionX",
+      "briefDescription": "The website design for a travel agency.",
+      "categories": ["Design"],
+      "bannerUrl": [
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/1.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/2.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/4.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/5.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/6.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/7.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/9.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/10.png",
+        "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/10.png"
+      ],
+      "links": [
+        {
+          "name": "Xd File",
+          "url": "https://drive.google.com/file/d/1kH6N0pGfhX7mvedb1tTw0de4p4Ppum-7/view?usp=drive_link",
+          "icon": "preview-white.svg",
+          "hoverIcon": "preview.svg"
+        },
+        {
+          "name": "Demo",
+          "url": "#",
+          "icon": "play-white.svg",
+          "hoverIcon": "play.svg"
+        }
+      ],
+      "ProgrammingLanguages": [
+        "AdobeXD"
+      ],
+      "technologies": [
+      ],
+      "features": [
+        "Responsive Design",
+        "User-Centered Design",
+        "Visual Appeal and Branding"
+      ]
     }
   ],
   "socialMedia": [
-    {
-      "name": "Github",
-      "link": "https://github.com/ArmanSaffari",
-      "icon": "github-white.svg"
-    },
-    {
-      "name": "LinkedIn",
-      "link": "https://www.linkedin.com/in/arman-saffari/",
-      "icon": "linkedin-white.svg"
-    },
-    {
-      "name": "Pinterest",
-      "link": "https://pin.it/2tTDYjW",
-      "icon": "pinterest-white.svg"
-    }
+    {"name": "Github", "link": "https://github.com/ArmanSaffari", "icon":"github-white.svg"},
+    {"name": "LinkedIn", "link": "https://www.linkedin.com/in/arman-saffari/", "icon":"linkedin-white.svg"},
+    {"name": "Pinterest", "link": "https://pin.it/2tTDYjW", "icon":"pinterest-white.svg"}
   ]
 }

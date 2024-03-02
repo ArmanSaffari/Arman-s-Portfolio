@@ -82,7 +82,7 @@
       {
         "id": 5,
         "name": "PHP",
-        "imgFileName": "php.svg"
+        "imgFileName": "PHP.svg"
       },
       {
         "id": 5,
@@ -120,7 +120,7 @@
     "other": [
       {
         "id": 1,
-        "name": "Version Control Systems",
+        "name": "Github",
         "imgFileName": "github-white.svg"
       },
       {
@@ -131,11 +131,11 @@
       {
         "id": 3,
         "name": "Shopify",
-        "imgFileName": "shopify.png"
+        "imgFileName": "shopify.svg"
       },
       {
         "id": 4,
-        "name": "Agile Methodology",
+        "name": "Agile",
         "imgFileName": "agile.png"
       }
     ]

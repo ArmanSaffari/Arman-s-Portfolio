@@ -10,7 +10,8 @@ export default {
   ],
   methods: {
     getImageUrl(imgName) {
-      return `https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/icons/${imgName}`
+      return `./src/assets/icons/${imgName}`
+      // return `https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/icons/${imgName}`
     }
   }
 };

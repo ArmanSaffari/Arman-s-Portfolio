@@ -78,6 +78,16 @@
         "id": 5,
         "name": "mySQL",
         "imgFileName": "mySQL.svg"
+      },
+      {
+        "id": 5,
+        "name": "PHP",
+        "imgFileName": "php.svg"
+      },
+      {
+        "id": 5,
+        "name": "Laravel",
+        "imgFileName": "laravel.svg"
       }
     ],
     "design": [
@@ -115,6 +125,16 @@
       },
       {
         "id": 2,
+        "name": "WordPress",
+        "imgFileName": "wordpress.svg"
+      },
+      {
+        "id": 3,
+        "name": "Shopify",
+        "imgFileName": "shopify.png"
+      },
+      {
+        "id": 4,
         "name": "Agile Methodology",
         "imgFileName": "agile.png"
       }
@@ -124,7 +144,7 @@
     {
       "id": 1,
       "title": "Kish Financial Institution",
-      "briefDescription": "The web development project for Kish Financial Institution, a non-profit organization, encompasses a comprehensive design and development process, incorporating both front-end and back-end components. From visually appealing user interfaces to robust functionality, the project aims to create an intuitive and secure online platform for the institution's financial services.",
+      "briefDescription": "Web development project for Kish Financial Institution, a non-profit organization, encompasses a comprehensive design and development process, incorporating both front-end and back-end components. From visually appealing user interfaces to robust functionality, the project aims to create an intuitive and secure online platform for the institution's financial services.",
       "categories": [
         "Design",
         "Front-End"
@@ -220,7 +240,7 @@
       "title": "ExpeditionX",
       "briefDescription": "The website design for a travel agency.",
       "categories": [
-        "Design"
+        "Design" , "Front-End"
       ],
       "bannerUrl": [
         "https://raw.githubusercontent.com/ArmanSaffari/Arman-s-Portfolio/main/src/assets/images/expeditionX/1.png",
@@ -235,6 +255,12 @@
       ],
       "links": [
         {
+          "name": "Visit the Website",
+          "url": "https://expeditionx0.wordpress.com",
+          "icon": "preview-white.svg",
+          "hoverIcon": "preview.svg"
+        },
+        {
           "name": "Xd File",
           "url": "https://drive.google.com/file/d/1kH6N0pGfhX7mvedb1tTw0de4p4Ppum-7/view?usp=drive_link",
           "icon": "preview-white.svg",
@@ -242,7 +268,7 @@
         }
       ],
       "ProgrammingLanguages": [
-        "AdobeXD"
+        "AdobeXD", "wordpress"
       ],
       "technologies": [],
       "features": [
